@@ -1,0 +1,8 @@
+Reporting-MTA: dns; mx148.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;juanjo.recendiz@kosmos.com.mx
+Status: 5.0.0
+Remote-MTA: dns; mail.kosmos.com.mx
+Diagnostic-Code: smtp; 550 5.1.1 <juanjo.recendiz@kosmos.com.mx>: Recipient address rejected: User unknown in virtual alias table
+

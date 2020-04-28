@@ -1,0 +1,812 @@
+{
+    "controller": "controllers/record",
+    "recordViews": {
+        "detail": "advanced:views/bpmn-flowchart/record/detail",
+        "edit": "advanced:views/bpmn-flowchart/record/edit"
+    },
+    "menu": {
+        "list": {
+            "dropdown": [
+                {
+                    "label": "Processes",
+                    "link": "#BpmnProcess",
+                    "acl": "read",
+                    "aclScope": "BpmnProcess"
+                }
+            ]
+        }
+    },
+    "filterList": [
+        "active"
+    ],
+    "boolFilterList": ["onlyMy"],
+    "relationshipPanels": {
+        "processes": {
+            "create": false,
+            "select": false,
+            "unlinkDisabled": true,
+            "rowActionsView": "views/record/row-actions/view-only"
+        }
+    },
+    "elements": {
+        "eventStartConditional": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                },
+                "triggerType": {
+                    "type": "enum",
+                    "options": ["afterRecordCreated", "afterRecordSaved"]
+                },
+                "conditions": {
+                    "type": "base",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/conditions"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ],
+                        [
+                            {"name": "triggerType"}
+                        ]
+                    ]
+                },
+                {
+                    "label": "Conditions",
+                    "name": "conditions",
+                    "rows": [
+                        [
+                            {"name": "conditions", "fullWidth": true, "noLabel": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "defaults": {
+                "triggerType": "afterRecordCreated"
+            },
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "eventStartTimer": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                },
+                "targetReport": {
+                    "type": "link",
+                    "entity": "Report",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/target-report",
+                    "tooltip": true
+                },
+                "scheduling": {
+                    "type": "varchar",
+                    "maxLength": 16,
+                    "tooltip": true
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "scheduling",
+                    "rows": [
+                        [
+                            {"name": "targetReport"},
+                            {"name": "scheduling"}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "defaults": {
+                "targetReportId": null,
+                "scheduling": "0 0 * * *"
+            },
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "eventStart": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "eventEnd": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "eventEndTerminate": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "eventIntermediateConditionalCatch": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                },
+                "conditions": {
+                    "type": "base",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/conditions"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "label": "Conditions",
+                    "name": "conditions",
+                    "rows": [
+                        [
+                            {"name": "conditions", "fullWidth": true, "noLabel": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "eventIntermediateTimerCatch": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                },
+                "timer": {
+                    "type": "base",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/timer"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ],
+                        [
+                            {"name": "timer", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "defaults": {
+                "timerBase": null,
+                "timerShift": 0,
+                "timerShiftUnits": "minutes",
+                "timerShiftOperator": "plus",
+                "timerFormula": null
+            },
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "gatewayExclusive": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                },
+                "defaultFlowId": {
+                    "type": "base",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/default-flow-id"
+                },
+                "flowsConditions": {
+                    "type": "base",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/flows-conditions"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ],
+                        [
+                            {"name": "defaultFlowId"},
+                            false
+                        ]
+                    ]
+                },
+                {
+                    "label": "Flows Conditions",
+                    "name": "flowsConditions",
+                    "rows": [
+                        [
+                            {"name": "flowsConditions", "fullWidth": true, "noLabel": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/gateway-exclusive-detail",
+            "recordEditView": "advanced:views/bpmn-flowchart-element/record/gateway-exclusive-edit"
+        },
+        "gatewayInclusive": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                },
+                "defaultFlowId": {
+                    "type": "base",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/default-flow-id"
+                },
+                "flowsConditions": {
+                    "type": "base",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/flows-conditions"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ],
+                        [
+                            {"name": "defaultFlowId"},
+                            false
+                        ]
+                    ]
+                },
+                {
+                    "label": "Flows Conditions",
+                    "name": "flowsConditions",
+                    "rows": [
+                        [
+                            {"name": "flowsConditions", "fullWidth": true, "noLabel": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/gateway-exclusive-detail",
+            "recordEditView": "advanced:views/bpmn-flowchart-element/record/gateway-exclusive-edit"
+        },
+        "gatewayParallel": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ],
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ]
+        },
+        "gatewayEventBased": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "task": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "actions": {
+                    "type": "base",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/actions",
+                    "actionTypeList": [
+                        "createEntity",
+                        "createRelatedEntity",
+                        "updateEntity",
+                        "updateRelatedEntity",
+                        "updateCreatedEntity",
+                        "updateProcessEntity",
+                        "relateWithEntity",
+                        "unrelateFromEntity",
+                        "applyAssignmentRule",
+                        "createNotification",
+                        "makeFollowed",
+                        "triggerWorkflow",
+                        "runService"
+                    ]
+                },
+                "description": {
+                    "type": "text"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "label": "Actions",
+                    "rows": [
+                        [
+                            {"name": "actions", "fullWidth": true, "noLabel": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "taskScript": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "formula": {
+                    "type": "formula",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/task-script-formula"
+                },
+                "description": {
+                    "type": "text"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            {"name": "formula", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        },
+        "taskUser": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "name": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                },
+                "actionType": {
+                    "type": "enum",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/task-user-action-type",
+                    "translation": "BpmnUserTask.options.actionType"
+                },
+                "assignmentType": {
+                    "type": "enum",
+                    "options": ["", "processAssignedUser", "specifiedUser", "rule:Round-Robin", "rule:Least-Busy"],
+                    "view": "advanced:views/bpmn-flowchart-element/fields/task-user-assignment-type"
+                },
+                "targetUser": {
+                    "type": "link",
+                    "entity": "User"
+                },
+                "targetTeam": {
+                    "type": "link",
+                    "entity": "Team"
+                },
+                "targetUserPosition": {
+                    "type": "enum",
+                    "entity": "Report",
+                    "view": "advanced:views/workflow/fields/target-user-position"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            {"name": "actionType"},
+                            {"name": "name"}
+                        ],
+                        [
+                            {"name": "assignmentType"},
+                            false
+                        ]
+                    ]
+                },
+                {
+                    "name": "assignmentRule",
+                    "rows": [
+                        [
+                            {"name": "targetUser"},
+                            false
+                        ],
+                        [
+                            {"name": "targetTeam"},
+                            {"name": "targetUserPosition"}
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "defaults": {
+                "actionType": "Approve",
+                "assignmentType": "processAssignedUser"
+            },
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/task-user-detail",
+            "recordEditView": "advanced:views/bpmn-flowchart-element/record/task-user-edit"
+        },
+        "taskSendMessage": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "messageType": {
+                    "type": "enum",
+                    "options": ["Email"]
+                },
+                "from": {
+                    "type": "enum",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/task-send-message-from",
+                    "options": ["system", "specifiedEmailAddress", "processAssignedUser"]
+                },
+                "to": {
+                    "type": "enum",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/task-send-message-to",
+                    "options": ["processAssignedUser", "specifiedTeams", "specifiedUsers", "specifiedContacts", "specifiedEmailAddress"]
+                },
+                "replyTo": {
+                    "type": "enum",
+                    "view": "advanced:views/bpmn-flowchart-element/fields/task-send-message-reply-to",
+                    "options": ["", "system", "specifiedEmailAddress", "processAssignedUser"]
+                },
+                "fromEmailAddress": {
+                    "type": "varchar"
+                },
+                "toEmailAddress": {
+                    "type": "varchar"
+                },
+                "replyToEmailAddress": {
+                    "type": "varchar"
+                },
+                "toSpecifiedTeams": {
+                    "type": "linkMultiple",
+                    "entity": "Team"
+                },
+                "toSpecifiedUsers": {
+                    "type": "linkMultiple",
+                    "entity": "User"
+                },
+                "toSpecifiedContacts": {
+                    "type": "linkMultiple",
+                    "entity": "Contact"
+                },
+                "emailTemplate": {
+                    "type": "link",
+                    "entity": "EmailTemplate"
+                },
+                "doNotStore": {
+                    "type": "bool"
+                },
+                "description": {
+                    "type": "text"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            {"name": "messageType"}, false
+                        ],
+                        [
+                            {"name": "from"}, false
+                        ],
+                        [
+                            {"name": "fromEmailAddress"}, false
+                        ],
+                        [
+                            {"name": "to"}, false
+                        ],
+                        [
+                            {"name": "toEmailAddress"}, false
+                        ],
+                        [
+                            {"name": "toSpecifiedTeams"}, false
+                        ],
+                        [
+                            {"name": "toSpecifiedUsers"}, false
+                        ],
+                        [
+                            {"name": "toSpecifiedContacts"}, false
+                        ],
+                        [
+                            {"name": "replyTo"}, false
+                        ],
+                        [
+                            {"name": "replyToEmailAddress"}, false
+                        ],
+                        [
+                            {"name": "emailTemplate"}, false
+                        ],
+                        [
+                            {"name": "doNotStore"}, false
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/task-send-message-detail",
+            "recordEditView": "advanced:views/bpmn-flowchart-element/record/task-send-message-edit",
+            "defaults": {
+                "doNotStore": false,
+                "from": "system",
+                "to": "processAssignedUser",
+                "replyTo": "",
+                "messageType": "Email"
+            }
+        },
+        "flow": {
+            "fields": {
+                "text": {
+                    "type": "varchar",
+                    "trim": true
+                },
+                "description": {
+                    "type": "text"
+                },
+                "startDirection": {
+                    "type": "enum",
+                    "options": ["", "r", "d", "l", "u"],
+                    "view": "advanced:views/bpmn-flowchart-element/fields/start-direction"
+                }
+            },
+            "layout": [
+                {
+                    "rows": [
+                        [
+                            {"name": "text", "fullWidth": true}
+                        ]
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            {"name": "startDirection"},
+                            false
+                        ]
+                    ]
+                },
+                {
+                    "name": "description",
+                    "rows": [
+                        [
+                            {"name": "description", "fullWidth": true}
+                        ]
+                    ]
+                }
+            ],
+            "recordDetailView": "advanced:views/bpmn-flowchart-element/record/detail"
+        }
+    }
+}

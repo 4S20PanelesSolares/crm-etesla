@@ -1,0 +1,6 @@
+Reporting-MTA: dns; uriel.hosting-mexico.net
+
+Action: failed
+Final-Recipient: rfc822;ing.ver@etesla.mxb
+Status: 5.0.0
+

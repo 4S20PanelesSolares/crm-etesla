@@ -1,0 +1,95 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contacts"
+                }
+            ],
+            [
+                {
+                    "name": "opportunities"
+                },
+                {
+                    "name": "origen"
+                }
+            ],
+            [
+                {
+                    "name": "direccion"
+                },
+                {
+                    "name": "generarInstalacion"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "customLabel": "Datos"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "kw"
+                },
+                {
+                    "name": "monto"
+                }
+            ],
+            [
+                {
+                    "name": "fechaDeInstalacion",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "tipoDePago"
+                },
+                {
+                    "name": "financiamiento"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "customLabel": "..."
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "products",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "nmeroDePaneles"
+                },
+                {
+                    "name": "nmeroDeInversores"
+                }
+            ],
+            [
+                {
+                    "name": "estructuras",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "customLabel": "Componentes"
+    }
+]

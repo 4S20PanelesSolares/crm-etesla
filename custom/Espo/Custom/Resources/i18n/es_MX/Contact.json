@@ -1,0 +1,54 @@
+{
+    "labels": {
+        "Create Contact": "Crear Cliente"
+    },
+    "fields": {
+        "case": "Caso",
+        "alias": "Alias",
+        "giroProf": "Giro o Profesión",
+        "origen": "Origen",
+        "tarifa": "Tarifa",
+        "opportunities1": "Opportunities1",
+        "opportunity": "Opportunity",
+        "instalacion": "Instalacion",
+        "instalacions": "Instalacions",
+        "aislados": "Aislados",
+        "aislado": "Aislado",
+        "aCCs": "ACCs"
+    },
+    "links": {
+        "case": "Caso",
+        "opportunities": "Potencial",
+        "opportunities1": "Opportunities1",
+        "opportunity": "Opportunity",
+        "instalacion": "Instalacion",
+        "instalacions": "Instalacions",
+        "aislados": "Aislados",
+        "aislado": "Aislado",
+        "aCCs": "ACCs"
+    },
+    "options": {
+        "salutationName": {
+            "": "",
+            "Mr.": "Sr.",
+            "Ms.": "Srta.",
+            "Mrs.": "Sra.",
+            "Dr.": "Dr.",
+            "Arq.": "Arq.",
+            "Lic.": "Lic."
+        },
+        "origen": {
+            "Redes": "Redes",
+            "Cambaceo": "Cambaceo",
+            "Recomendado": "Recomendado",
+            "Arquitecto": "Arquitecto",
+            "Auto": "Auto",
+            "Volanteo": "Volanteo"
+        },
+        "tarifa": {
+            "Domestico": "Domestico",
+            "Industrial": "Industrial",
+            "Comercial": "Comercial"
+        }
+    }
+}

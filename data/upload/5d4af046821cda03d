@@ -1,0 +1,13 @@
+Reporting-MTA: dns; f6-cpt.filter.rsaweb.co.za
+X-Postfix-Queue-ID: 7EFAE4BC9A
+X-Postfix-Sender: rfc822; ventas11@etesla.mx
+Arrival-Date: Thu,  1 Aug 2019 19:52:43 +0200 (SAST)
+
+Final-Recipient: rfc822; felipe.toledano@etesla.com
+Original-Recipient: rfc822;felipe.toledano@etesla.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; 41.74.182.205
+Diagnostic-Code: smtp; 550 5.1.1 <felipe.toledano@etesla.com>: Recipient
+    address rejected: User unknown in virtual mailbox table
+

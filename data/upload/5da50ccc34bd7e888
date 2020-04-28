@@ -1,0 +1,104 @@
+Received: from NAM02-CY1-obe.outbound.protection.outlook.com (104.47.37.50) by
+ mail01.atpaltamira.com.mx (138.245.71.101) with Microsoft SMTP Server (TLS)
+ id 14.3.361.1; Thu, 22 Aug 2019 10:48:10 -0500
+Received: from DM6PR13CA0016.namprd13.prod.outlook.com (2603:10b6:5:bc::29) by
+ CH2PR13MB3480.namprd13.prod.outlook.com (2603:10b6:610:29::18) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2199.11; Thu, 22 Aug 2019 15:47:24 +0000
+Received: from DM3NAM03FT059.eop-NAM03.prod.protection.outlook.com
+ (2a01:111:f400:7e49::208) by DM6PR13CA0016.outlook.office365.com
+ (2603:10b6:5:bc::29) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2220.11 via Frontend
+ Transport; Thu, 22 Aug 2019 15:47:24 +0000
+Authentication-Results: spf=pass (sender IP is 67.217.34.36)
+ smtp.mailfrom=etesla.mx; atpaltamira.com.mx; dkim=pass (signature was
+ verified) header.d=etesla.mx;atpaltamira.com.mx; dmarc=bestguesspass
+ action=none header.from=etesla.mx;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of etesla.mx designates
+ 67.217.34.36 as permitted sender) receiver=protection.outlook.com;
+ client-ip=67.217.34.36; helo=uriel.hosting-mexico.net;
+Received: from uriel.hosting-mexico.net (67.217.34.36) by
+ DM3NAM03FT059.mail.protection.outlook.com (10.152.82.207) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.2178.16 via Frontend Transport; Thu, 22 Aug 2019 15:47:23 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=etesla.mx;
+	 s=default; h=Content-Type:MIME-Version:Message-ID:Date:Subject:To:From:
+	Sender:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=UFviq5GOFzAOfsCpTL4hWJi7bqZ+Nd6QGAVKb68l6d8=; b=OzoG0GI8aDRqUUoQIY5m4aaUAB
+	+DOvBQ9300mRQMuh8uAdDBGCcFon0xb0EFP6foX4IE9UcrE8UFbGyX5u7DZ7yQ4XurdfwSqu7DyVW
+	18Nx2ulga/3Pn6jxzRZLmc9pDxTJUA/zB0cfe1vIcDmnA6bbqH/BBl94Adx6/PqL2MeFbUH+0KEud
+	dVfuCq5/ixatqrCXhUqEt1E/iabUR4tT+qi1ok9omGq6sIlIfzkQE3lW/X5UZSkt498zOGgYYX/s8
+	Vl7+sYVfyjl7vQuxkbXVKB4nV0YzzGvGZ0ZkQ0lkmfyqmF66iJk63kqUD+tmL/iD5iiDsnWHyzQu7
+	Szb71Quw==;
+Received: from fixed-187-189-246-2.totalplay.net ([187.189.246.2]:20919
+ helo=DESKTOP8UKNPG1)	by uriel.hosting-mexico.net with esmtpsa
+ (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)	(Exim 4.92)	(envelope-from
+ <felipe.toledano@etesla.mx>)	id 1i0pGZ-00053I-DO	for fmar@atpaltamira.com.mx;
+ Thu, 22 Aug 2019 10:47:23 -0500
+From: <felipe.toledano@etesla.mx>
+To: <fmar@atpaltamira.com.mx>
+Subject: Propuesta eTesla - Paneles Solares
+Date: Thu, 22 Aug 2019 10:44:37 -0500
+Message-ID: <003d01d55900$86f6f020$94e4d060$@etesla.mx>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_003E_01D558D6.9E20E820"
+X-Mailer: Microsoft Outlook 16.0
+Content-Language: es-mx
+Thread-Index: AdVY/kJulxXwz8IlSBqg2BgZR3R2OA==
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - uriel.hosting-mexico.net
+X-AntiAbuse: Original Domain - atpaltamira.com.mx
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - etesla.mx
+X-Get-Message-Sender-Via: uriel.hosting-mexico.net: authenticated_id: felipe.toledano@etesla.mx
+X-Authenticated-Sender: uriel.hosting-mexico.net: felipe.toledano@etesla.mx
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+Return-Path: felipe.toledano@etesla.mx
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 12297998-5493-47b1-a961-185ded36f874:0
+X-Forefront-Antispam-Report: CIP:67.217.34.36;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(286005)(199004)(189003)(33003)(21480400003)(61296003)(15974865002)(9786002)(3672435006)(7826002)(956004)(2616005)(126002)(476003)(53386004)(2876002)(790700001)(1420700001)(53416004)(6966003)(2351001)(2476003)(28085005)(71190400001)(568964002)(356004)(6666004)(19627235002)(486006)(236005)(86362001)(7636002)(7596002)(8676002)(44736005)(5024004)(46816001)(246002)(1096003)(606006)(106002)(45086001)(102836004)(26005)(36756003)(36906005)(54896002)(16586007)(336012)(6306002)(6916009)(50226002);DIR:INB;SFP:;SCL:1;SRVR:CH2PR13MB3480;H:uriel.hosting-mexico.net;FPR:;SPF:Pass;LANG:es;PTR:uriel.hosting-mexico.net;A:1;MX:1;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: b65e5b7d-5201-45cb-90d3-08d7271806e0
+X-Microsoft-Antispam: BCL:3;PCL:0;RULEID:(2390118)(7020095)(4652040)(5600166)(711020)(4605104)(4709080)(8001031)(1414054)(49563074)(71702078);SRVR:CH2PR13MB3480;
+X-MS-TrafficTypeDiagnostic: CH2PR13MB3480:
+X-MS-Exchange-PUrlCount: 3
+X-LD-Processed: 12297998-5493-47b1-a961-185ded36f874,ExtAddr
+X-MS-Oob-TLC-OOBClassifiers: OLM:17;
+X-Microsoft-Antispam-Message-Info: u36YeEoss3OTXeqsVSpR0jS8QLBvFkRVk1KH9n2qotwbt4QGGI1LP59I3e8uohtvSa/1bAAf17itglu/N4XAeJDKQ8FWje/QRNa26nozjRxC7/LudU06BF95jgdW0d2mRjTn7mf5QS97KK7ABBwUqiaM94wYYGOC+q6jKEiWBiip9w4ioemJhx9Wbpv51I4keKiiOSc/SvW3/1w0RXUL1p6hXDyBtSIfLYSyVuqaP4CwgkWf+J2U+Uz+YW3DlmaYh5GwmL0tOv6cKnNku4kSA6cWUeCM3gOuzKNSrP/TbvhTnzZWoMuopAWwLBRsrCjim4brD4DiRhAUgbFXco5zqOdyacB+HDAO9f6b9/1xTXxHbMVknrc2zFUZZSm0zDUL1yBfFksiIAutLk/EHQ+PCs+w3wuc7NjRMP/XKAPLz17CfcVIT/vEPzEugC4Ah7JyR8zVyQ/4OTK+8t774iLIVLkWmNVSpNRJuGmX0Mix4Lco0QSfLxJm5yGnNjzOqueUQ4t7ZmQQW8HGRG2aHlGBJF478hVe/scOUvokwfq8nuLtJeeocracOAaVCOz+0Er+qA6gAjh+2U9rGxqOQMAWNxjlCH1orMEO78Hdt433sQCu5iGfNG/ccsH3MrQGctopWoWIsYaL+GFlQYnk38GozydvfhUJiFr9A0IUfdZwae7/e9E3/rRzPRSjg0HG3jSaPgmp1ZhGtHUia4ZxtYYkHfprxKIRzV5abf3edajfvBUpTmUGLLCudXO7F+YkqI6ZZZiEMAYIAwGpPQcwkkA+yXmR0CQvWK6eRP4jFCzVxbjvotFpN2h92tlDfPb1sET4FlRfXX5dBSvf1iM0BKixWgZx0Hj2tOpllyAg7Wp9tfFlwiU31jhGZmjAhhojTzZ8AfZ819h17RVAJqN5iGxDXlCEB/phZZ0+mzRXb9UmuhQ=
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Aug 2019 15:47:23.9639
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b65e5b7d-5201-45cb-90d3-08d7271806e0
+X-MS-Exchange-CrossTenant-Id: 12297998-5493-47b1-a961-185ded36f874
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH2PR13MB3480
+X-OrganizationHeadersPreserved: CH2PR13MB3480.namprd13.prod.outlook.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 22 Aug 2019 15:48:10.9752
+ (UTC)
+X-MS-Exchange-Forest-ArrivalHubServer: MAIL01.atpaltamira.com.mx
+X-MS-Exchange-Organization-OriginalServerIPAddress: 138.245.71.101
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Organization-OriginatorOrganization: atpaltamira.com.mx
+X-OriginatorOrg: atpaltamira.com.mx
+X-MS-Exchange-Organization-OriginalClientIPAddress: 67.217.34.36
+X-MS-Exchange-Organization-AuthSource: DM3NAM03FT059.eop-NAM03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-TransportTrafficSubType:
+X-MS-Exchange-Organization-SCL: 1
+X-MS-Exchange-Organization-Antispam-ScanContext: DIR:Incoming;SFV:NSPM;SKIP:0;
+X-MS-Exchange-Organization-Processed-By-Journaling: Journal Agent
+X-CrossPremisesHeadersPromoted: MAIL01.atpaltamira.com.mx
+X-CrossPremisesHeadersFiltered: MAIL01.atpaltamira.com.mx
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: MAIL01.atpaltamira.com.mx
+X-MS-Exchange-Organization-OriginalSize: 19985016
+X-MS-Exchange-Forest-MessageScope: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Organization-MessageScope: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Organization-HygienePolicy: Standard
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+

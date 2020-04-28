@@ -1,0 +1,63 @@
+{
+    "links": {
+        "meetings": "Presentaciones",
+        "calls": "Llamadas",
+        "tasks": "Tareas",
+        "contacts": "Contacts",
+        "opportunities": "Opportunities",
+        "aCCs": "ACCs",
+        "aCCParent": "ACCParent",
+        "instalacions": "Instalacions",
+        "products": "Products",
+        "emails": "Emails"
+    },
+    "labels": {
+        "Create ACC": "Crear Arch. de Config."
+    },
+    "fields": {
+        "contacts": "Clientes",
+        "opportunities": "Potencial",
+        "fechaDeInstalacion": "Fecha de Instalacion",
+        "origen": "Origen",
+        "panelesPotencia": "Paneles Potencia",
+        "nmeroDePaneles": "Número de Paneles",
+        "kw": "Kw",
+        "inversor": "Inversor",
+        "nmeroDeInversores": "Número de Inversores",
+        "estructuras": "Estructuras",
+        "monto": "Monto",
+        "montoCurrency": "Monto (Moneda)",
+        "montoConverted": "Monto (Convertido)",
+        "descuento": "Descuento",
+        "aCCs": "ACCs",
+        "aCCParent": "ACCParent",
+        "instalacions": "Instalacions",
+        "generarInstalacion": "Generar Instalacion?",
+        "direccion": "Dirección",
+        "direccionStreet": "Dirección Calle",
+        "direccionCity": "Dirección Ciudad",
+        "direccionState": "Dirección Estado",
+        "direccionCountry": "Dirección País",
+        "direccionPostalCode": "Dirección Código Postal",
+        "direccionMap": "Dirección Mapa",
+        "products": "Products",
+        "tipoDePago": "Tipo de Pago",
+        "financiamiento": "Financiamiento",
+        "emails": "Emails"
+    },
+    "options": {
+        "origen": {
+            "Cambaceo": "Cambaceo",
+            "Redes": "Redes",
+            "Auto": "Auto",
+            "Recomendado": "Recomendado",
+            "Arquitecto": "Arquitecto",
+            "Volanteo": "Volanteo",
+            "Oficina": "Oficina"
+        },
+        "tipoDePago": {
+            "Contado": "Contado",
+            "Financiado": "Financiado"
+        }
+    }
+}

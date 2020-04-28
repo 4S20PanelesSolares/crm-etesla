@@ -1,0 +1,8 @@
+Reporting-MTA: dns; uriel.hosting-mexico.net
+
+Action: failed
+Final-Recipient: rfc822;j.ortega@taxiray.com
+Status: 5.0.0
+Remote-MTA: dns; taxiray.com
+Diagnostic-Code: smtp; 554 5.7.1 <j.ortega@taxiray.com>: Relay access denied
+

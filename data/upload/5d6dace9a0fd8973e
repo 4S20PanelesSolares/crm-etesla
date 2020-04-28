@@ -1,0 +1,7 @@
+Reporting-MTA: dns; mx61.antispamcloud.com
+
+Action: delayed
+Final-Recipient: rfc822;ellan_mystik.@hotmail.com
+Status: 4.0.0
+Remote-MTA: dns; hotmail-com.olc.protection.outlook.com
+

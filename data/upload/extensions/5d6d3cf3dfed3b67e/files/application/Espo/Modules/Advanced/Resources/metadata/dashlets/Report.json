@@ -1,0 +1,55 @@
+{
+    "view":"advanced:views/dashlets/report",
+    "aclScope": "Report",
+    "options": {
+        "view": "advanced:views/dashlets/options/report",
+        "fields": {
+            "title": {
+                "type": "varchar"
+            },
+            "report": {
+                "type": "link",
+                "entity": "Report",
+                "required": true,
+                "view": "advanced:views/report/fields/dashlet-select"
+            },
+            "column": {
+                "type": "enum",
+                "options": []
+            },
+            "displayOnlyCount": {
+                "type": "bool"
+            },
+            "displayTotal": {
+                "type": "bool"
+            },
+            "useSiMultiplier": {
+                "type": "bool"
+            }
+        },
+        "defaults": {
+            "useSiMultiplier": true
+        },
+        "layout": [
+            {
+                "rows": [
+                    [
+                        {"name": "title"}
+                    ],
+                    [
+                        {"name": "report"},
+                        {"name": "column"}
+                    ],
+                    [
+                        {"name": "displayTotal"},
+                        {"name": "displayOnlyCount"}
+                    ],
+                    [
+                        {"name": "useSiMultiplier"},
+                        false
+                    ]
+                ]
+            }
+        ]
+    }
+}

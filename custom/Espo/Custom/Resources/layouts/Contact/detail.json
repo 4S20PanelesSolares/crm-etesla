@@ -1,0 +1,47 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "alias"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "address"
+                },
+                {
+                    "name": "giroProf"
+                }
+            ],
+            [
+                {
+                    "name": "origen"
+                },
+                {
+                    "name": "tarifa"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "info",
+        "dynamicLogicVisible": null,
+        "customLabel": "Vista"
+    }
+]

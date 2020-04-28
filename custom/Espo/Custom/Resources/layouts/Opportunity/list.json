@@ -1,0 +1,38 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "tarifa"
+    },
+    {
+        "name": "stage",
+        "width": 15
+    },
+    {
+        "name": "assignedUser",
+        "width": 12
+    },
+    {
+        "name": "closeDate"
+    },
+    {
+        "name": "kw"
+    },
+    {
+        "name": "probabilidad"
+    },
+    {
+        "name": "amount",
+        "width": 10,
+        "align": "right"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "modifiedAt"
+    }
+]

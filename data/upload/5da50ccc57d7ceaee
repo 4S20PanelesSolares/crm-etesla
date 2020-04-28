@@ -1,0 +1,10 @@
+Reporting-MTA: dns;atpaltamira.com.mx
+Received-From-MTA: dns;NAM05-DM3-obe.outbound.protection.outlook.com
+Arrival-Date: Thu, 22 Aug 2019 18:37:51 +0000
+
+Final-Recipient: rfc822;fmar@atpaltamira.com.mx
+Action: failed
+Status: 5.2.3
+Diagnostic-Code: smtp;550 5.2.3 RESOLVER.RST.RecipSizeLimit; message too large for this recipient
+
+

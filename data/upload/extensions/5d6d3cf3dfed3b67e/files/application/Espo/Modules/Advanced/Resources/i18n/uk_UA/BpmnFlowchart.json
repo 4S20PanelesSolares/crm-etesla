@@ -1,0 +1,44 @@
+{
+  "labels": {
+    "Create BpmnFlowchart": "Створити блок-схему",
+    "Hand tool": "Інструмент рука",
+    "Create Event tool": "Інструмент створити подію",
+    "Create Gateway tool": "Інструмент створити подію",
+    "Create Activity tool": "Інструмент створити дію",
+    "Connect tool": "Інструмент для з'єднання",
+    "Erase tool": "Інструмент для стирання",
+    "Full Screen": "На весь екран",
+    "Processes": "Процеси",
+    "data": "Дані"
+  },
+  "fields": {
+    "isActive": "Активний",
+    "targetType": "Тип цільової сутності"
+  },
+  "links": {
+    "processes": "Процеси"
+  },
+  "elements": {
+    "eventStartConditional": "Умовна стартова подія",
+    "eventStartTimer": "Стартова подія-таймер",
+    "eventStart": "Стартова подія ",
+    "eventIntermediateTimerCatch": "Проміжна подія-таймер",
+    "eventIntermediateConditionalCatch": "Проміжна умовна подія",
+    "eventEnd": "Кінцева подія",
+    "eventEndTerminate": "Завершальна кінцева подія",
+    "gatewayExclusive": "Ексклюзивний шлюз",
+    "gatewayInclusive": "Включаючий шлюз",
+    "gatewayParallel": "Паралельний шлюз",
+    "gatewayEventBased": "Шлюз на основі події",
+    "taskSendMessage": "Завдання «Надіслати повідомлення»",
+    "taskScript": "Завдання-скрипт",
+    "taskBusinessRule": "Завдання бізнес-правила",
+    "taskUser": "Завдання для користувача",
+    "task": "Завдання"
+  },
+  "presetFilters": {
+    "isManuallyStartable": "Запускається вручну",
+    "activeHasNoneStartEvent": "Активний без стартового події",
+    "active": "Активний"
+  }
+}

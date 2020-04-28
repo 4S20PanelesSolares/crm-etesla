@@ -1,0 +1,312 @@
+{
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false,
+        "textFilterFields": [
+            "description"
+        ],
+        "fullTextSearch": false,
+        "orderBy": "probabilidad",
+        "order": "desc"
+    },
+    "fields": {
+        "account": {
+            "required": false,
+            "audited": false,
+            "readOnly": false,
+            "tooltip": false
+        },
+        "stage": {
+            "options": [
+                "entrante",
+                "Prospecting",
+                "Proposal",
+                "Negotiation",
+                "Cerrado",
+                "Aislado"
+            ],
+            "probabilityMap": {
+                "entrante": 0,
+                "Prospecting": 10,
+                "Proposal": 50,
+                "Negotiation": 80,
+                "Cerrado": 100,
+                "Aislado": 0
+            },
+            "fieldManagerAdditionalParamList": [
+                {
+                    "name": "probabilityMap",
+                    "view": "crm:views/opportunity/admin/field-manager/fields/probability-map"
+                }
+            ],
+            "required": false,
+            "isSorted": false,
+            "readOnly": false,
+            "tooltip": false,
+            "style": {
+                "entrante": "primary",
+                "Prospecting": "danger",
+                "Proposal": "warning",
+                "Negotiation": "info",
+                "Cerrado": "success",
+                "Aislado": null
+            },
+            "default": "entrante"
+        },
+        "probability": {
+            "disableFormatting": true,
+            "audited": false,
+            "readOnly": false,
+            "tooltip": false,
+            "default": null,
+            "required": false
+        },
+        "kw": {
+            "notNull": false,
+            "type": "float",
+            "required": true,
+            "default": null,
+            "min": null,
+            "max": null,
+            "isCustom": true,
+            "tooltip": false
+        },
+        "origen": {
+            "type": "enum",
+            "options": [
+                "Cambaceo",
+                "Facebook",
+                "Auto",
+                "Recomendado",
+                "Arquitecto",
+                "Volanteo",
+                "Oficina"
+            ],
+            "style": {
+                "Cambaceo": null,
+                "Facebook": null,
+                "Auto": null,
+                "Recomendado": null,
+                "Arquitecto": null,
+                "Volanteo": null,
+                "Oficina": null
+            },
+            "default": "Cambaceo",
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "name": {
+            "default": null,
+            "maxLength": null,
+            "options": [],
+            "required": false,
+            "trim": false
+        },
+        "probabilidad": {
+            "type": "enum",
+            "options": [
+                "D1",
+                "D2",
+                "D3",
+                "D4",
+                "M1",
+                "M2",
+                "M3",
+                "M4",
+                "C1",
+                "C2",
+                "C3"
+            ],
+            "style": {
+                "D1": "info",
+                "D2": "danger",
+                "D3": "danger",
+                "D4": "danger",
+                "M1": "warning",
+                "M2": "warning",
+                "M3": "warning",
+                "M4": "warning",
+                "C1": "success",
+                "C2": "success",
+                "C3": "primary"
+            },
+            "displayAsLabel": true,
+            "default": "D1",
+            "isCustom": true,
+            "required": true
+        },
+        "documentos": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "tarifa": {
+            "type": "enum",
+            "required": true,
+            "options": [
+                "Domestico",
+                "Industrial",
+                "Comercial"
+            ],
+            "style": {
+                "Domestico": "primary",
+                "Industrial": "danger",
+                "Comercial": "info"
+            },
+            "default": "Domestico",
+            "isCustom": true
+        },
+        "contacts1": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "contacts12": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "noLoad": false,
+            "importDisabled": false,
+            "isCustom": true
+        },
+        "aislados": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        },
+        "tipoPago": {
+            "type": "enum",
+            "options": [
+                "Contado",
+                "Financiado"
+            ],
+            "style": {
+                "Contado": null,
+                "Financiado": null
+            },
+            "default": "Contado",
+            "isCustom": true
+        },
+        "instalacions": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        },
+        "aCCs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        },
+        "direccion": {
+            "type": "address",
+            "dynamicLogicVisible": null,
+            "dynamicLogicReadOnly": null,
+            "name": "direccion",
+            "label": "Direccion",
+            "tooltipText": null,
+            "inlineEditDisabled": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "financiamento": {
+            "notNull": false,
+            "type": "float",
+            "default": null,
+            "min": 15,
+            "max": 100,
+            "isCustom": true
+        },
+        "recibo": {
+            "type": "file",
+            "sourceList": [],
+            "maxFileSize": null,
+            "isCustom": true
+        },
+        "cotizacion": {
+            "type": "file",
+            "sourceList": [],
+            "maxFileSize": null,
+            "isCustom": true
+        },
+        "consumoPromedio": {
+            "notNull": false,
+            "type": "float",
+            "default": null,
+            "min": null,
+            "max": null,
+            "isCustom": true
+        },
+        "subidaDeArchivos": {
+            "type": "url",
+            "default": "https://script.google.com/macros/s/AKfycbzOK6BkAo7a_QAiSIkI1tNoX1vqJUyO2oBqz_2dzA/exec",
+            "readOnly": true,
+            "maxLength": null,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "contacts1": {
+            "type": "hasMany",
+            "relationName": "oppContact",
+            "foreign": "opportunities1",
+            "entity": "Contact",
+            "audited": true,
+            "isCustom": true
+        },
+        "contacts12": {
+            "type": "hasMany",
+            "foreign": "opportunity",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "aislados": {
+            "type": "hasMany",
+            "relationName": "aisladoOpportunity",
+            "foreign": "opportunities",
+            "entity": "Aislado",
+            "audited": false,
+            "isCustom": true
+        },
+        "instalacions": {
+            "type": "hasMany",
+            "relationName": "instalacionOpportunity",
+            "foreign": "opportunities",
+            "entity": "Instalacion",
+            "audited": false,
+            "isCustom": true
+        },
+        "aCCs": {
+            "type": "hasMany",
+            "relationName": "aCCOpportunity",
+            "foreign": "opportunities",
+            "entity": "ACC",
+            "audited": false,
+            "isCustom": true
+        },
+        "recibo": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        },
+        "cotizacion": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        }
+    }
+}

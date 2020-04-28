@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "status": "Статус",
+    "processedAt": "Обработано в",
+    "elementType": "Тип элемента",
+    "element": "Элемент"
+  },
+  "options": {
+    "status": {
+      "Created": "Создано",
+      "Pending": "В ожидании",
+      "In Process": "В процессе",
+      "Processed": "Обработано",
+      "Rejected": "Отклонено",
+      "Failed": "Сбой"
+    }
+  }
+}

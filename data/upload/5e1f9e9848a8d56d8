@@ -1,0 +1,6 @@
+Reporting-MTA: dns; vm04.digitalserver.org
+
+Action: failed
+Final-Recipient: rfc822;lromero@wwwfmex.org
+Status: 5.0.0
+

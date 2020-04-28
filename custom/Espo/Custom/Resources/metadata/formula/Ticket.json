@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "diasTranscurridos=datetime\\diff(datetime\\today(), publicado, 'days')"
+}

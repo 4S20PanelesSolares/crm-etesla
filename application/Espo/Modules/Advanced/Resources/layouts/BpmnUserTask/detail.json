@@ -1,0 +1,41 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "actionType"
+                }
+            ],
+            [
+                {
+                    "name": "target"
+                },
+                {
+                    "name": "process"
+                }
+            ],
+            [
+                {
+                    "name": "resolution"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "resolutionNote",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+Reporting-MTA: dns; uriel.hosting-mexico.net
+
+Action: failed
+Final-Recipient: rfc822;daniel.ortiz@etelsa.mx
+Status: 5.0.0
+

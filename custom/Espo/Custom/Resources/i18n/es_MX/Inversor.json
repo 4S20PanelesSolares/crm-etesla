@@ -1,0 +1,15 @@
+{
+    "labels": {
+        "Create Inversor": "Crear Inversor"
+    },
+    "fields": {
+        "potencia": "Potencia",
+        "precio": "Precio",
+        "marca": "Marca",
+        "vmin": "Vmin",
+        "vmax": "Vmax",
+        "pmin": "Pmin",
+        "pmax": "Pmax",
+        "iSC": "ISC"
+    }
+}

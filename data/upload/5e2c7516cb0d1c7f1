@@ -1,0 +1,10 @@
+Reporting-MTA: dns; mx35.antispamcloud.com
+
+Action: delayed
+Final-Recipient: rfc822;asesorservicio1@hyundaiveracruz.com.mx
+Status: 4.0.0
+
+Action: delayed
+Final-Recipient: rfc822;servicio@hyundaiveracruz.com.mx
+Status: 4.0.0
+

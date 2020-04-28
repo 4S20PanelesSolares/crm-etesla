@@ -1,0 +1,8 @@
+Reporting-MTA: dns; mx61.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;ellan_mystik.@hotmail.com
+Status: 5.0.0
+Remote-MTA: dns; hotmail-com.olc.protection.outlook.com
+Diagnostic-Code: smtp; retry timeout exceeded
+

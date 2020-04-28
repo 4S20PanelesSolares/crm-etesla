@@ -1,0 +1,54 @@
+{
+    "links": {
+        "meetings": "Presentaciones",
+        "calls": "Llamadas",
+        "tasks": "Tareas",
+        "opportunities": "Opportunities",
+        "contacts": "Contacts",
+        "opportunities1": "Opportunities1",
+        "opportunity": "Opportunity",
+        "aCCs": "ACCs"
+    },
+    "labels": {
+        "Create Instalacion": "Crear Instalacion"
+    },
+    "fields": {
+        "fechaPago": "Fecha de pago",
+        "etapa": "Etapa",
+        "opportunities": "Potencial",
+        "fechaInstalacion": "Fecha de Instalación",
+        "contacts": "Cliente",
+        "opportunities1": "Opportunities1",
+        "opportunity": "Opportunity",
+        "guia": "Guias Asignadas",
+        "diasTranscurridos": "Dias Transcurridos desde firma",
+        "aCCs": "ACCs",
+        "direccion": "Direccion",
+        "direccionStreet": "Direccion Calle",
+        "direccionCity": "Direccion Ciudad",
+        "direccionState": "Direccion Estado",
+        "direccionCountry": "Direccion País",
+        "direccionPostalCode": "Direccion Código Postal",
+        "direccionMap": "Direccion Mapa",
+        "tipoDePago": "Tipo de Pago",
+        "financiamiento": "Financiamiento"
+    },
+    "options": {
+        "etapa": {
+            "Inventario": "Inventario",
+            "Estrutura": "Estrutura",
+            "Instalacion": "Instalacion",
+            "Papeles": "Papeles",
+            "Tramite": "Tramite",
+            "CambioMed": "Cambio de Medidor",
+            "Arranque": "Arranque",
+            "Monitoreo": "Monitoreo",
+            "App": "App",
+            "Contrato": "Contrato"
+        },
+        "tipoDePago": {
+            "Contado": "Contado",
+            "Financiado": "Financiado"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": "#61ff78",
+    "iconClass": "fas fa-charging-station"
+}

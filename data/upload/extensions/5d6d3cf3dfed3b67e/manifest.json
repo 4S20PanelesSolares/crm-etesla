@@ -1,0 +1,11 @@
+{
+  "name": "Advanced Pack",
+  "version": "2.3.14",
+  "type": "extension",
+  "acceptableVersions": [],
+  "releaseDate": "2019-08-14",
+  "author": "EspoCRM",
+  "description": "Reports, Workflows, BPM.",
+  "checkVersionUrl": "https://s.espocrm.com",
+  "skipBackup": true
+}

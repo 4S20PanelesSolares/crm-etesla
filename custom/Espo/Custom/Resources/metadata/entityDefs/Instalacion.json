@@ -1,0 +1,244 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "fechaPago": {
+            "notNull": false,
+            "type": "date",
+            "default": "javascript: return this.dateTime.getToday();",
+            "audited": true,
+            "after": null,
+            "before": null,
+            "isCustom": true
+        },
+        "etapa": {
+            "type": "enum",
+            "audited": true,
+            "displayAsLabel": true,
+            "options": [
+                "Inventario",
+                "Estrutura",
+                "Instalacion",
+                "Papeles",
+                "Tramite",
+                "CambioMed",
+                "Arranque",
+                "Monitoreo",
+                "App",
+                "Contrato"
+            ],
+            "style": {
+                "Inventario": "danger",
+                "Estrutura": null,
+                "Instalacion": "warning",
+                "Papeles": null,
+                "Tramite": null,
+                "CambioMed": null,
+                "Arranque": null,
+                "Monitoreo": "success",
+                "App": null,
+                "Contrato": null
+            },
+            "default": "Inventario",
+            "isCustom": true
+        },
+        "fechaInstalacion": {
+            "notNull": false,
+            "type": "date",
+            "default": "javascript: return this.dateTime.getDateShiftedFromToday(10, 'days');",
+            "audited": true,
+            "after": null,
+            "before": null,
+            "isCustom": true
+        },
+        "contacts": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true,
+            "required": true
+        },
+        "guia": {
+            "type": "text",
+            "default": null,
+            "maxLength": null,
+            "isCustom": true
+        },
+        "diasTranscurridos": {
+            "type": "int",
+            "default": null,
+            "min": null,
+            "max": null,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "opportunities": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        },
+        "aCCs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        },
+        "direccion": {
+            "type": "address",
+            "dynamicLogicVisible": null,
+            "dynamicLogicReadOnly": null,
+            "name": "direccion",
+            "label": "Direccion",
+            "tooltipText": null,
+            "inlineEditDisabled": false,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "tipoDePago": {
+            "type": "enum",
+            "options": [
+                "Contado",
+                "Financiado"
+            ],
+            "style": {
+                "Contado": null,
+                "Financiado": null
+            },
+            "default": "Contado",
+            "isCustom": true,
+            "required": true
+        },
+        "financiamiento": {
+            "notNull": false,
+            "type": "float",
+            "default": null,
+            "min": 15,
+            "max": 100,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "meetings": {
+            "type": "hasMany",
+            "entity": "Meeting",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "calls": {
+            "type": "hasMany",
+            "entity": "Call",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "tasks": {
+            "type": "hasChildren",
+            "entity": "Task",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "contacts": {
+            "type": "hasMany",
+            "relationName": "instalacionContact",
+            "foreign": "instalacions",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "opportunities": {
+            "type": "hasMany",
+            "relationName": "instalacionOpportunity",
+            "foreign": "instalacions",
+            "entity": "Opportunity",
+            "audited": false,
+            "isCustom": true
+        },
+        "aCCs": {
+            "type": "hasMany",
+            "relationName": "aCCInstalacion",
+            "foreign": "instalacions",
+            "entity": "ACC",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": true
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

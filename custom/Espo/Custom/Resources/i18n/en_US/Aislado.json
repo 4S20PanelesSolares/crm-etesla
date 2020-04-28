@@ -1,0 +1,29 @@
+{
+    "fields": {
+        "opportunities": "Opportunities",
+        "noViable": "No viable por...",
+        "detallesDeAislamiento": "Detalles de aislamiento",
+        "contacts": "Contacts",
+        "contacts1": "Contacts1"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "opportunities": "Opportunities",
+        "contacts": "Contacts",
+        "contacts1": "Contacts1"
+    },
+    "labels": {
+        "Create Aislado": "Create Aislado"
+    },
+    "options": {
+        "noViable": {
+            "Espacio": "Espacio insuficiente",
+            "Otra Empresa": "Otra Empresa",
+            "Facturacion": "Facturación mínima",
+            "Solo información": "Solo información",
+            "Sistema Aislado": "Sistema Aislado"
+        }
+    }
+}

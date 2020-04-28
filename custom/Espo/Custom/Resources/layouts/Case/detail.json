@@ -1,0 +1,44 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "number"
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "priority"
+                },
+                {
+                    "name": "contacts"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "attachments",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Vista"
+    }
+]

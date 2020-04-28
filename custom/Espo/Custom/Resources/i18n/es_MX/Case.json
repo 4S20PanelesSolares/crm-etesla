@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "algo": "Algo",
+        "opportunity": "Opportunity",
+        "contacts1": "Contacts1"
+    },
+    "links": {
+        "algo": "Algo",
+        "opportunity": "Opportunity",
+        "contacts1": "Contacts1"
+    }
+}

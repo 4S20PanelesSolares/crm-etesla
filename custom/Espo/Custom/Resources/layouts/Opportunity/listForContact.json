@@ -1,0 +1,15 @@
+[
+    {
+        "name": "stage",
+        "width": 21
+    },
+    {
+        "name": "closeDate",
+        "width": 18
+    },
+    {
+        "name": "amount",
+        "width": 20,
+        "align": "right"
+    }
+]

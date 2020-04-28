@@ -1,0 +1,38 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "marca"
+                }
+            ],
+            [
+                {
+                    "name": "precio"
+                },
+                {
+                    "name": "potencia"
+                }
+            ],
+            [
+                {
+                    "name": "iSC"
+                },
+                {
+                    "name": "vMP"
+                }
+            ],
+            [
+                {
+                    "name": "vOC"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Vista"
+    }
+]

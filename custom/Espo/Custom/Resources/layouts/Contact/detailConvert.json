@@ -1,0 +1,44 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "consumo"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "title",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "address"
+                },
+                {
+                    "name": "fechaDeCierre"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Vista"
+    }
+]

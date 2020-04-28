@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "ifThen(amount<=59000 && financiamento>=50, financiamento=15)"
+}

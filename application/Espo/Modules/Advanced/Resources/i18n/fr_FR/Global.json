@@ -1,0 +1,10 @@
+{
+    "scopeNames": {
+        "Workflow": "Workflow",
+        "Report": "Rapport"
+    },
+    "scopeNamesPlural": {
+        "Workflow": "Workflows",
+        "Report": "Rapports"
+    }
+}

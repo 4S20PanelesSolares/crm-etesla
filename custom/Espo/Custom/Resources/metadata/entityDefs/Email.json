@@ -1,0 +1,37 @@
+{
+    "fields": {
+        "parent": {
+            "entityList": [
+                "Account",
+                "Lead",
+                "Contact",
+                "Opportunity",
+                "Case",
+                "Metrica",
+                "Ticket",
+                "Agenda",
+                "Aislado",
+                "Instalacion",
+                "ACC"
+            ]
+        },
+        "aCCs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "aCCs": {
+            "type": "hasMany",
+            "relationName": "aCCEmail",
+            "foreign": "emails",
+            "entity": "ACC",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

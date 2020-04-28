@@ -1,0 +1,229 @@
+Return-path: <fernando.cosme@etesla.mx>
+Received: from uriel.hosting-mexico.net ([69.162.67.210])
+	by mx63.antispamcloud.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <fernando.cosme@etesla.mx>)
+	id 1hn4g4-0002SI-J8
+	for juanjo.resendiz@kosmoz.com.mx; Mon, 15 Jul 2019 19:22:18 +0200
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=etesla.mx;
+	 s=default; h=Content-Type:In-Reply-To:MIME-Version:Date:Message-ID:From:To:
+	References:Subject:Sender:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=kVnJF+Fwxl+GSPVURvlob+4Xm0/ROl9CqtycHMcPIco=; b=WoMiqyqBymJfq8uFzElt59ggkL
+	abIglJLn+c4+kP3drU9C0Vecn7ArRLB15uemPIwUL831BsEvWa8ABK21F8TttUALyc+8ewQvNdFSp
+	q6AgK+GYWWAICtgavmqxHaV/x0FFxoShbeJOIro0w96XnZ99SmWpx+XoQsViR8RFA5BJTmNyld3nB
+	/KUQ9QrjHt67ooMraCgF3AsiHaeAIdBk9G1mLoRnl62VKRlom/b1PY3UemjMwptwSjxCxPCKRX049
+	EGa62a56e1PZNMY7JtafNJEGCiqlgp71Uj2PV4q7R7rTV7dlQwHq07rZHnX4SgCyNPhHBHSXULINB
+	vm6dUWIg==;
+Received: from [189.216.198.158] (port=43057 helo=[192.168.0.18])
+	by uriel.hosting-mexico.net with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <fernando.cosme@etesla.mx>)
+	id 1hn4fM-00FlT9-ED
+	for juanjo.resendiz@kosmoz.com.mx; Mon, 15 Jul 2019 12:21:32 -0500
+Subject: Fwd: Re: COTIZACION ESTACION METEOROLOGICA SP
+References: <BYAPR11MB3766E09F0C42BE1F14D3EE4ADACF0@BYAPR11MB3766.namprd11.prod.outlook.com>
+To: juanjo.resendiz@kosmoz.com.mx
+From: Fer cosme <fernando.cosme@etesla.mx>
+X-Forwarded-Message-Id: <BYAPR11MB3766E09F0C42BE1F14D3EE4ADACF0@BYAPR11MB3766.namprd11.prod.outlook.com>
+Message-ID: <8512aa44-e8c0-0163-fc64-39ff82a8b703@etesla.mx>
+Date: Mon, 15 Jul 2019 12:21:29 -0500
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101
+ Thunderbird/60.8.0
+MIME-Version: 1.0
+In-Reply-To: <BYAPR11MB3766E09F0C42BE1F14D3EE4ADACF0@BYAPR11MB3766.namprd11.prod.outlook.com>
+Content-Type: multipart/alternative;
+ boundary="------------6444CD14886617ECDD4B0860"
+Content-Language: es-ES
+X-Originating-IP: 69.162.67.210
+X-Spampanel-Domain: uriel2.hosting-mexico.net
+X-Spampanel-Username: 69.162.67.210
+Authentication-Results: antispamcloud.com; auth=pass smtp.auth=69.162.67.210@uriel2.hosting-mexico.net
+X-Spampanel-Outgoing-Class: ham
+X-Spampanel-Outgoing-Evidence: Combined (0.03)
+X-Recommended-Action: accept
+X-Filter-ID: Mvzo4OR0dZXEDF/gcnlw0U6y6flTXvu8AHhQTLy0w52pSDasLI4SayDByyq9LIhV52YCj2CQH/Lg
+ cNcMX7uIskTNWdUk1Ol2OGx3IfrIJKywOmJyM1qr8uRnWBrbSAGDAOiXE8VBnW4XjT989YiCYacC
+ fHwEBfiC40Xt41Jc+da4Dcwf+CZK8NXgy3In+fX7Kwsbng4ndRbOLxx18b/MOlO05s+oip5EC/YK
+ rMQ9+O/JskY5uM9aiO8b59KoHFzOQRcBe2HPwt6wLTRxfbRXhrbkndIAsFRys7WpL2fa7V+Pi2cB
+ GN0AKI+EIkvJ19u87jZWSLvjXZ2luGsPZ3jvNhVVJ2mVvokCO2vVjpfr/eX3+RWxljT0AAJgouHP
+ rg5RFfuioi+ZqQpdwSt7VNckr37niLJQJzxpqSdmGj2doliDRuiUzsH+sEW6XTJyNgcbQ18PG1yr
+ OcflUFS53w7gtXQmZupE66h/n5scs0KBvjbXs2KsRjKrCowEavDwQuKo0Z9IYZHHLpvscm95OHjW
+ pepPyApn+JsirWTdtMW7fMCeKBLhW+/eldf55d2G6sFP1T2+medQFkAFLwFEG1d6KhGjI345l2ga
+ JNiMgBKa3IetI4g+l6rCWbY0MZcgnbHss2k1hVFo6EhBKk68vN4ElaAaXVo/EC2K+bDeFIM9LXsf
+ HJ/AsillixKNofx50ggqMiX+oBNr6mNEFz1SVF9RSDfTA50up4Qaq899OuKenlIiEORz3oJSD8F5
+ E+iK5ys4JZXd8uFkuoVFOiIbxpkZnaLwJAyTAFDNw9mFp5kBTkM+APbwGqEqufSWmkK0/m823iVu
+ OS6CWJi1QpX8a/ggXaTuClOkRu5Mk7mdQpu4BW11vE3zFH12TUBlyI7lwiy6MUO8Uy8ufsefqDe4
+ J+HWncOpyKA69LF1Ge2GaGfxmfqAk20ECOoXb9OzqRYGycJR9SEU38yc2aQ6Y9i79GEXoN40eTXl
+ WiUAYdLmsJdAoPIJBSWOFJYOFaHzscFIuE1SjiqIHRcxVAbZHuJR87MBNuSgW4q69QCTCV+33tRV
+ NonuQwbjsnT78RRhIVZ3ycObAD8Z6OA2e+08xRrf0xMsdw==
+X-Report-Abuse-To: spam@quarantine10.antispamcloud.com
+
+This is a multi-part message in MIME format.
+--------------6444CD14886617ECDD4B0860
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+
+-------- Mensaje reenviado --------
+Asunto: 	Re: COTIZACION ESTACION METEOROLOGICA SP
+Fecha: 	Mon, 15 Jul 2019 17:19:00 +0000
+De: 	Fernando Cosme Cortés <fercosme@outlook.com>
+Para: 	Fer cosme <fernando.cosme@etesla.mx>, 
+juanjo.recendiz@kosmos.com.mx <juanjo.recendiz@kosmos.com.mx>
+
+
+
+.
+------------------------------------------------------------------------
+*From:* Fer cosme <fernando.cosme@etesla.mx>
+*Sent:* Monday, July 15, 2019 12:12 PM
+*To:* juanjo.recendiz@kosmos.com.mx
+*Cc:* Fernando Cosme Cortés
+*Subject:* COTIZACION ESTACION METEOROLOGICA SP
+
+Buen día Ing. Juan
+
+
+         Por favor le pido me apoye con una cotizacion de estacion 
+meteorologica con los las siguientes caracteristicas, saludos.
+
+
+  * Termómetro <https://es.wikipedia.org/wiki/Term%C3%B3metro>
+  * Barómetro <https://es.wikipedia.org/wiki/Bar%C3%B3metro>
+  * Pluviómetro <https://es.wikipedia.org/wiki/Pluvi%C3%B3metro>
+  * Piranómetro, este debe cumplir con la ISO 9060, Clase 2.
+    <https://es.wikipedia.org/wiki/Piran%C3%B3metro>
+  * Anemómetro <https://es.wikipedia.org/wiki/Anem%C3%B3metro>
+  * Veleta <https://es.wikipedia.org/wiki/Veleta>
+
+
+Ing. Fernando Cosme Cortés
+
+Responsable de Ingenieria CDMX
+
+Contacto: 554 055 6660,fernando.cosme@etesla.mx 
+<mailto:fernando.cosme@etesla.mx>
+
+
+--------------6444CD14886617ECDD4B0860
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p><br>
+    </p>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Mensaje reenviado --------
+      <table class="moz-email-headers-table" cellspacing="0"
+        cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Asunto:
+            </th>
+            <td>Re: COTIZACION ESTACION METEOROLOGICA SP</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Fecha: </th>
+            <td>Mon, 15 Jul 2019 17:19:00 +0000</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">De: </th>
+            <td>Fernando Cosme Cortés <a class="moz-txt-link-rfc2396E" href="mailto:fercosme@outlook.com">&lt;fercosme@outlook.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Para: </th>
+            <td>Fer cosme <a class="moz-txt-link-rfc2396E" href="mailto:fernando.cosme@etesla.mx">&lt;fernando.cosme@etesla.mx&gt;</a>,
+              <a class="moz-txt-link-abbreviated" href="mailto:juanjo.recendiz@kosmos.com.mx">juanjo.recendiz@kosmos.com.mx</a>
+              <a class="moz-txt-link-rfc2396E" href="mailto:juanjo.recendiz@kosmos.com.mx">&lt;juanjo.recendiz@kosmos.com.mx&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <meta http-equiv="Content-Type" content="text/html;
+        charset=windows-1252">
+      <style type="text/css" style="display:none;"> P {margin-top:0;margin-bottom:0;} </style>
+      <div style="font-family: Calibri, Helvetica, sans-serif;
+        font-size: 12pt; color: rgb(0, 0, 0);">
+        .</div>
+      <hr style="display:inline-block;width:98%" tabindex="-1">
+      <div id="divRplyFwdMsg" dir="ltr"><font style="font-size:11pt"
+          face="Calibri, sans-serif" color="#000000"><b>From:</b> Fer
+          cosme <a class="moz-txt-link-rfc2396E" href="mailto:fernando.cosme@etesla.mx">&lt;fernando.cosme@etesla.mx&gt;</a><br>
+          <b>Sent:</b> Monday, July 15, 2019 12:12 PM<br>
+          <b>To:</b> <a class="moz-txt-link-abbreviated" href="mailto:juanjo.recendiz@kosmos.com.mx">juanjo.recendiz@kosmos.com.mx</a><br>
+          <b>Cc:</b> Fernando Cosme Cortés<br>
+          <b>Subject:</b> COTIZACION ESTACION METEOROLOGICA SP</font>
+        <div> </div>
+      </div>
+      <div style="background-color:#FFFFFF">
+        <p>Buen día Ing. Juan</p>
+        <p><br>
+        </p>
+        <p>        Por favor le pido me apoye con una cotizacion de
+          estacion meteorologica con los las siguientes caracteristicas,
+          saludos.</p>
+        <p><br>
+        </p>
+        <ul style="">
+          <li style="margin-bottom:0.1em"><a
+              href="https://es.wikipedia.org/wiki/Term%C3%B3metro"
+              title="Termómetro" style="text-decoration:none;
+              color:rgb(11,0,128); background:none"
+              moz-do-not-send="true">Termómetro</a></li>
+          <li style="margin-bottom:0.1em"><a
+              href="https://es.wikipedia.org/wiki/Bar%C3%B3metro"
+              title="Barómetro" style="text-decoration:none;
+              color:rgb(11,0,128); background:none"
+              moz-do-not-send="true">Barómetro</a><span></span><span></span><span></span><br>
+          </li>
+          <li style="margin-bottom:0.1em"><a
+              href="https://es.wikipedia.org/wiki/Pluvi%C3%B3metro"
+              title="Pluviómetro" style="text-decoration:none;
+              color:rgb(11,0,128); background:none"
+              moz-do-not-send="true">Pluviómetro</a></li>
+          <li style="margin-bottom:0.1em"><a
+              href="https://es.wikipedia.org/wiki/Piran%C3%B3metro"
+              title="Piranómetro" style="text-decoration:none;
+              color:rgb(11,0,128); background:none"
+              moz-do-not-send="true">Piranómetro, este debe cumplir con
+              la ISO 9060, Clase 2.<br>
+            </a></li>
+          <li style="margin-bottom:0.1em"><a
+              href="https://es.wikipedia.org/wiki/Anem%C3%B3metro"
+              title="Anemómetro" style="text-decoration:none;
+              color:rgb(11,0,128); background:none"
+              moz-do-not-send="true">Anemómetro</a><span></span><span></span></li>
+          <li style="margin-bottom:0.1em"><a
+              href="https://es.wikipedia.org/wiki/Veleta" title="Veleta"
+              style="text-decoration:none; color:rgb(11,0,128);
+              background:none" moz-do-not-send="true">Veleta</a></li>
+        </ul>
+        <p class="x_gmail-m_5494748943215525875yiv8920078101MsoNormal"><br>
+        </p>
+        <p class="x_gmail-m_5494748943215525875yiv8920078101MsoNormal">Ing.
+          Fernando Cosme Cortés</p>
+        <p class="x_gmail-m_5494748943215525875yiv8920078101MsoNormal">Responsable
+          de Ingenieria CDMX</p>
+        <p>Contacto: 554 055 6660,<span
+class="x_gmail-m_5494748943215525875yiv8920078101gmail-m_7777206121762565164apple-converted-space"></span><a
+            rel="nofollow" href="mailto:fernando.cosme@etesla.mx"
+            target="_blank" moz-do-not-send="true">fernando.cosme@etesla.mx</a></p>
+      </div>
+    </div>
+  </body>
+</html>
+
+--------------6444CD14886617ECDD4B0860--
+

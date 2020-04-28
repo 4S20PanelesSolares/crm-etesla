@@ -1,0 +1,9 @@
+{
+    "mandatory": {
+        "scopeLevel": {
+            "Workflow": false,
+            "WorkflowLogRecord": false,
+            "ReportPanel": false
+        }
+    }
+}

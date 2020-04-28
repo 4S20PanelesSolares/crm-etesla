@@ -1,0 +1,25 @@
+{
+  "scopeNames": {
+    "ReportCategory": "Категории отчетов",
+    "Workflow": "Рабочий поток",
+    "Report": "Отчёт",
+    "WorkflowLogRecord": "Запись журнала рабочего потока",
+    "BpmnFlowchart": "Блок-схема процесса",
+    "BpmnProcess": "Процесс",
+    "ReportFilter": "Фильтр отчетов",
+    "ReportPanel": "Панель отчетов"
+  },
+  "scopeNamesPlural": {
+    "ReportCategory": "Категории отчетов",
+    "Workflow": "Рабочие потоки",
+    "Report": "Отчёты",
+    "WorkflowLogRecord": "Журнал рабочих потоков",
+    "BpmnFlowchart": "Блок-схемы процессов",
+    "BpmnProcess": "Процессы",
+    "ReportFilter": "Фильтры отчетов",
+    "ReportPanel": "Панели отчетов"
+  },
+  "dashlets": {
+    "Report": "Отчёт"
+  }
+}

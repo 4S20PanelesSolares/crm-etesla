@@ -1,0 +1,9 @@
+{
+    "stream": true,
+    "disabled": false,
+    "statusField": "stage",
+    "kanbanStatusIgnoreList": [
+        "Cerrado",
+        "Aislado"
+    ]
+}

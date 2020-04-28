@@ -1,0 +1,25 @@
+{
+    "links": {
+        "meetings": "Presentaciones",
+        "calls": "Llamadas",
+        "tasks": "Tareas"
+    },
+    "labels": {
+        "Create Ticket": "Crear Ticket"
+    },
+    "fields": {
+        "estatus": "Estatus",
+        "captura": "Captura",
+        "diasTranscurridos": "Dias Transcurridos",
+        "publicado": "Publicado",
+        "folio": "Folio"
+    },
+    "options": {
+        "estatus": {
+            "abierto": "abierto",
+            "revisado": "revisado",
+            "en desarrollo": "en desarrollo",
+            "cerrado": "cerrado"
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "fields": {
+        "text": "Text",
+        "triggerType": "Trigger Type",
+        "timer": "Timer Parameters",
+        "defaultFlowId": "Default Flow",
+        "from": "From",
+        "to": "To",
+        "replyTo": "Reply-To",
+        "fromEmailAddress": "From Email Address",
+        "toEmailAddress": "To Email Address",
+        "replyToEmailAddress": "Reply-To Email Address",
+        "toSpecifiedTeams": "To Teams",
+        "toSpecifiedUsers": "To Users",
+        "toSpecifiedContacts": "To Contacts",
+        "emailTemplate": "Email Template",
+        "doNotStore": "Do not store sent email",
+        "actions": "Actions",
+        "formula": "Formula (script)",
+        "actionType": "Action Type",
+        "targetUser": "Target User",
+        "assignmentType": "Assignment",
+        "targetTeam": "Target Team",
+        "targetUserPosition": "Target User Position",
+        "startDirection": "Start Direction",
+        "targetReport": "Target Report",
+        "scheduling": "Scheduling",
+        "messageType": "Message Type",
+        "canBeFailed": "Can be Failed"
+    },
+    "labels": {
+        "Conditions": "Conditions",
+        "Actions": "Actions",
+        "Field": "Field",
+        "Flows Conditions": "Flows Conditions"
+    },
+    "tooltips": {
+        "targetReport": "Records from the list report will be passed to the new process.",
+        "scheduling": "Crontab notation. Defines frequency. UTC timezone.\n\n*/5 * * * * - every 5 minutes\n\n0 */2 * * * - every 2 hours\n\n30 1 * * * - at 01:30 once a day\n\n0 0 1 * * - on the first day of the month"
+    },
+    "options": {
+        "emailAddress": {
+            "system": "System",
+            "currentUser": "Current User",
+            "specifiedEmailAddress": "Specified Email Address",
+            "assignedUser": "Assigned User",
+            "followers": "Followers",
+            "specifiedContacts": "Specified Contacts",
+            "specifiedUsers": "Specified Users",
+            "specifiedTeams": "Specified Teams",
+            "followersExcludingAssignedUser": "Followers excluding Assigned User",
+            "processAssignedUser": "User assigned to Process",
+            "targetEntity": "Target Record",
+            "": "None"
+        },
+        "triggerType": {
+            "afterRecordCreated": "After record created",
+            "afterRecordSaved": "After record saved",
+            "sequential": "Sequential"
+        },
+        "timerShiftOperator": {
+            "plus": "plus",
+            "minus": "minus"
+        },
+        "timerShiftUnits": {
+            "minutes": "minutes",
+            "hours": "hours",
+            "days": "days",
+            "months": "months"
+        },
+        "timerBase": {
+            "moment": "Moment when event triggered",
+            "formula": "Calculated by formula"
+        },
+        "actionType": {
+            "Approve": "Approve",
+            "Review": "Review"
+        },
+        "assignmentType": {
+            "": "None",
+            "processAssignedUser": "User assigned to Process",
+            "specifiedUser": "Specified User",
+            "rule:Round-Robin": "Round-Robin",
+            "rule:Least-Busy": "Least-Busy"
+        },
+        "startDirection": {
+            "": "Auto",
+            "r": "Right",
+            "d": "Down",
+            "u": "Up",
+            "l": "Left"
+        },
+        "messageType": {
+            "Email": "Email"
+        }
+    }
+}

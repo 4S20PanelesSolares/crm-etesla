@@ -1,0 +1,242 @@
+Return-Path: <ventas11@etesla.mx>
+Received: from f6-cpt.filter.rsaweb.co.za (localhost [127.0.0.1])
+	by f6-cpt.filter.rsaweb.co.za (Postfix) with ESMTP id 7EFAE4BC9A
+	for <felipe.toledano@etesla.com>; Thu,  1 Aug 2019 19:52:43 +0200 (SAST)
+X-RSAWEB-ID: 1564681963900
+Received: from mx43-out6.antispamcloud.com (mx43-out6.antispamcloud.com [138.201.146.165])
+	by f6-cpt.filter.rsaweb.co.za (Postfix) with ESMTPS
+	for <felipe.toledano@etesla.com>; Thu,  1 Aug 2019 19:52:43 +0200 (SAST)
+Received: from uriel.hosting-mexico.net ([69.162.67.210])
+	by mx105.antispamcloud.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <ventas11@etesla.mx>)
+	id 1htFFe-0004AG-JH
+	for felipe.toledano@etesla.com; Thu, 01 Aug 2019 19:52:34 +0200
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=etesla.mx;
+	 s=default; h=Content-Type:In-Reply-To:MIME-Version:Date:Message-ID:Cc:
+	References:To:From:Subject:Sender:Reply-To:Content-Transfer-Encoding:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=JhRjVAbQAFSHyQdo4gyjWEVvAsTH4vh12IIgAorPfVQ=; b=e0uMC5a4euORoytdbr9vshbE47
+	MEeeLCGKxmmNzmsxIAEX71Y1FNtoHLin3Ef4JRczhJ8Wmpmw2lU4PB/u0gLdca/gN6hP7JHRwq7uk
+	x5/oJqujGdAwKOBwH8Cv2iejBj5PyNydlW4PVLxJVo3gQKRNd3sYoVNFUfvnYdirgfqShitulRZhj
+	UM3qDQt82EW8XNAEI4F0Idxr5PuNfjQm6joyIHqfhHYYQfmPEZvLCRa0o3ofIJvWUt+gCnTRfaN1E
+	WUuPIcXu9r5dFasI52eOQGZ1Sq7IqdXUN5ix9kxB2piI6NAeU1tT8IVxYTApyIxyToFTy5plrmmjv
+	bh1VMxhA==;
+Received: from fixed-187-189-246-2.totalplay.net ([187.189.246.2]:38191 helo=[192.168.100.67])
+	by uriel.hosting-mexico.net with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <ventas11@etesla.mx>)
+	id 1htFEw-001Flf-4V; Thu, 01 Aug 2019 12:51:46 -0500
+Subject: Re: Fwd: Apoyo Propuesta Pedro Mares. Schlumberger Veracruz!!
+From: Fabiola Hdez Reyes <ventas11@etesla.mx>
+To: fernando.cosme@etesla.mx
+References: <e86c07f6-56e5-08ed-1447-e829732d3c45@etesla.mx>
+ <5b09f7d2-9ba7-0273-5bf3-0f2bf03c155b@etesla.mx>
+Cc: felipe.toledano@etesla.com
+Message-ID: <3aa74166-0c76-8210-3646-f104be079855@etesla.mx>
+Date: Thu, 1 Aug 2019 12:51:44 -0500
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101
+ Thunderbird/60.8.0
+MIME-Version: 1.0
+In-Reply-To: <5b09f7d2-9ba7-0273-5bf3-0f2bf03c155b@etesla.mx>
+Content-Type: multipart/alternative;
+ boundary="------------8285522A8E7436B12A748A4E"
+Content-Language: es-ES
+X-Originating-IP: 69.162.67.210
+X-Spampanel-Domain: uriel2.hosting-mexico.net
+X-Spampanel-Username: 69.162.67.210
+Authentication-Results: antispamcloud.com; auth=pass smtp.auth=69.162.67.210@uriel2.hosting-mexico.net
+X-Spampanel-Outgoing-Class: unsure
+X-Spampanel-Outgoing-Evidence: Combined (0.15)
+X-Recommended-Action: accept
+X-Filter-ID: Mvzo4OR0dZXEDF/gcnlw0QR3kh8pms4IGrDTloUGIkypSDasLI4SayDByyq9LIhVUZbR67CQ7/vm
+ /hHDJU4RXkTNWdUk1Ol2OGx3IfrIJKywOmJyM1qr8uRnWBrbSAGDYPPUhn6RWRPxCYyIaHm2fP6J
+ UxRYWAiAaBBhhX0yObjgo34CxMJsfFVRRl+N7XQzUovZEadPVwuLunA/94abpEMC83EcGqebH9oT
+ x2HeTuKSSthhEO/022oXNYLUqKcR0+iG0YsTNx5q8/6pfXge3qPBCFPJDwSlcRsrY32t9qBTPSw+
+ CekCTYoDa8nAx3W5jqNK9+k77WRmSiaO2MHpflDlD19FR4ilMgLbJJ+q+eovCjGWBq2ZoFvSsGIr
+ 3FuQOtSrNwoiJ5/3QxUtlj0tssO1wjmeb9RCa+YI49T4kOuhAPmLnhEQ2H55IKD7afzmVf1qzaRU
+ c3P3olRHLamMQyb0mbZGjIHswS91OoTWbV29JFF4Dn9kwMjPJwTPdW7CXSSDn3TEHS9pAbntj2AH
+ d0i09ntGtLgiy4PZyZ/bxCS/8I9Xzgq64xIOSIrKbwsPceAUju/P9oWWMV2b9i9ni6B8lTw+8Bla
+ jhHdQsU8wHcl2W0MyOCV3peiO5UCLbtX0AYnZT9qwbvXubH5QjMC1yy4FbqLm4D0JEePsYckgFUy
+ kekYEOrHDP6AyZ4YcksZAxFwjNF2Z/74gi3xWeCtPLgbhIjFDhSjHjVkMDx/0Ps9Y1+B5NAl+UiK
+ W8CuUu+chviIA6lvI2aIu1IbnjwnHmNT4fsxel7pq+lBMkeMWc/KN754ptIcywXSXIeSueMkARaR
+ g3blfQ3OxHtKgSiwQRxwEiTVJqDh0qKoKsXx5llThQJUvgTDBC7mPahJOeRDjT43PPr2YuyRtKKZ
+ 7S4mbxa/uySddj1gecb9V9mLM0DzK3GyjcmMfZCVJ5BUO0CCLO7tB85qfz0J45IZUjY2xTBUyMCx
+ ubUexJzOR7EsKGry3deP8vNnmz84mDUvZqxn6YZflXKvK4TN7SfIl4AyWnq5nlNDKEar7XtOn9T8
+ LNZjU+H7MXpe6avpQTJHjFnPed3ByBR2r0KaNxVA6y2CEA==
+X-Report-Abuse-To: spam@quarantine10.antispamcloud.com
+
+This is a multi-part message in MIME format.
+--------------8285522A8E7436B12A748A4E
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Hola Fer:
+
+La información que te solicié vía llamada telefonica es con respecto a 
+esta propuesta:
+
+Potencia instalada: 499.9 5 KW
+Inversión: USD     $499,950 + Iva
+
+
+Y lo que necesito por favor es:
+
+Informacion del crédito Prana (Ya q se va a presentar a los directivos)
+
+E información sobre el mantenimiento que debería llevar dicho sistema
+
+Y tambien el tema que te comentó Felipe de las certificaciones (si me 
+puedes ayudar con los certificados que le ecomentaste a Felipe, el tuyo 
+de Prana y sí pueden el de Omar, se los agradecría mucho)
+
+
+Ojalá Me puedas apoyar.
+
+Muchas Gracias!!!
+
+
+El 7/16/2019 a las 6:29 PM, Fabiola Hdez Reyes escribió:
+>
+> Hola Fer:
+>
+>
+> Muchas Gracias!!
+>
+>
+> Saludos
+>
+>
+>
+> -------- Mensaje reenviado --------
+> Asunto: 	Apoyo Propuesta Pedro Mares. Schlumberger Veracruz
+> Fecha: 	Thu, 27 Jun 2019 15:36:48 -0500
+> De: 	Fabiola Hernández Reyes <ventas11@etesla.mx>
+> Para: 	ingenieria2@etesla.mx
+>
+>
+>
+> Hola Nic:
+>
+> Me podrías ayudar a generar  una propuesta por fas?
+>
+> Te anexo recibo.
+>
+>
+> Cualquier cosa en que pueda apoyarte dime por fas.
+>
+> Muchas Gracias.
+>
+>
+> Me lo encargó Daniel ;)
+>
+>
+>
+
+--------------8285522A8E7436B12A748A4E
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p>Hola Fer:</p>
+    <p>La información que te solicié vía llamada telefonica es con
+      respecto a esta propuesta:  <br>
+    </p>
+    <p>Potencia instalada: 499.9 5 KW<br>
+      Inversión: USD     $499,950 + Iva</p>
+    <p><br>
+    </p>
+    <p>Y lo que necesito por favor es:</p>
+    <p>Informacion del crédito Prana (Ya q se va a presentar a los
+      directivos)</p>
+    <p>E información sobre el mantenimiento que debería llevar dicho
+      sistema</p>
+    <p>Y tambien el tema que te comentó Felipe de las certificaciones
+      (si me puedes ayudar con los certificados que le ecomentaste a
+      Felipe, el tuyo de Prana y sí pueden el de Omar, se los agradecría
+      mucho) <br>
+    </p>
+    <p><br>
+    </p>
+    <p>Ojalá Me puedas apoyar.</p>
+    <p>Muchas Gracias!!!<br>
+    </p>
+    <p><br>
+    </p>
+    <div class="moz-cite-prefix">El 7/16/2019 a las 6:29 PM, Fabiola
+      Hdez Reyes escribió:<br>
+    </div>
+    <blockquote type="cite"
+      cite="mid:5b09f7d2-9ba7-0273-5bf3-0f2bf03c155b@etesla.mx">
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <p>Hola Fer:</p>
+      <p><br>
+      </p>
+      <p>Muchas Gracias!!</p>
+      <p><br>
+      </p>
+      <p>Saludos<br>
+      </p>
+      <div class="moz-forward-container"><br>
+        <br>
+        -------- Mensaje reenviado --------
+        <table class="moz-email-headers-table" cellspacing="0"
+          cellpadding="0" border="0">
+          <tbody>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Asunto:
+              </th>
+              <td>Apoyo Propuesta Pedro Mares. Schlumberger Veracruz</td>
+            </tr>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Fecha:
+              </th>
+              <td>Thu, 27 Jun 2019 15:36:48 -0500</td>
+            </tr>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">De: </th>
+              <td>Fabiola Hernández Reyes <a
+                  class="moz-txt-link-rfc2396E"
+                  href="mailto:ventas11@etesla.mx"
+                  moz-do-not-send="true">&lt;ventas11@etesla.mx&gt;</a></td>
+            </tr>
+            <tr>
+              <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Para:
+              </th>
+              <td><a class="moz-txt-link-abbreviated"
+                  href="mailto:ingenieria2@etesla.mx"
+                  moz-do-not-send="true">ingenieria2@etesla.mx</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
+        Hola Nic:<br>
+        <br>
+        Me podrías ayudar a generar  una propuesta por fas?<br>
+        <br>
+        Te anexo recibo.<br>
+        <br>
+        <br>
+        Cualquier cosa en que pueda apoyarte dime por fas.<br>
+        <br>
+        Muchas Gracias.<br>
+        <br>
+        <br>
+        Me lo encargó Daniel ;)<br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </blockquote>
+  </body>
+</html>
+
+--------------8285522A8E7436B12A748A4E--
+

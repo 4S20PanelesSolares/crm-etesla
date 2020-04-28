@@ -1,0 +1,68 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "kw"
+                }
+            ],
+            [
+                {
+                    "name": "stage"
+                },
+                {
+                    "name": "amount"
+                }
+            ],
+            [
+                {
+                    "name": "probabilidad"
+                },
+                {
+                    "name": "closeDate"
+                }
+            ],
+            [
+                {
+                    "name": "tarifa"
+                },
+                {
+                    "name": "consumoPromedio"
+                }
+            ],
+            [
+                {
+                    "name": "documentos",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "tipoPago"
+                },
+                {
+                    "name": "financiamento"
+                }
+            ],
+            [
+                {
+                    "name": "contacts"
+                },
+                {
+                    "name": "origen"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Vista"
+    }
+]

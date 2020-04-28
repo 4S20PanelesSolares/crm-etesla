@@ -1,0 +1,5 @@
+{
+  "help": {
+    "Google": "<p><b>Získání OAuth 2.0 pověřovacích listin z Google Developers Console.</b></p><p>Návštěva <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google Developers Console</a> k získání OAuth 2.0 pověřovacích listin jako je klientské ID a klientské tajemství, které jsou známé oboum aplikacím Google a EspoCRM.</p><p>This integration requires <b>curl</b> extension. Google Contacts also needs <b>libxml</b> and <b>xml</b>.</p>"
+  }
+}

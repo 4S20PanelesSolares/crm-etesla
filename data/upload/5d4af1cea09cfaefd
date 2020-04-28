@@ -1,0 +1,8 @@
+Reporting-MTA: dns; mx66.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;pedro.enriquez@schott.com
+Status: 5.0.0
+Remote-MTA: dns; dsc-ffm-mx1.mas.t-systems-service.com
+Diagnostic-Code: smtp; 550 Message transport denied: Unallowed attachment found
+

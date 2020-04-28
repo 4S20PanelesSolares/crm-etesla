@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "enabled": "Geactiveerd",
+    "clientSecret": "Client Geheim",
+    "apiKey": "API sleutel"
+  },
+  "messages": {
+    "selectIntegration": "Selecteer een integratie in het menu."
+  },
+  "help": {
+    "GoogleMaps": "<p> Verkrijg API-sleutel <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\"> hier </a>. </ p>"
+  }
+}

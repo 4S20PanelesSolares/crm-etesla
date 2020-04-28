@@ -1,0 +1,27 @@
+{
+    "fields": {
+        "syncWithReportsEnabled": {
+            "type": "bool",
+            "disabled": true
+        },
+        "syncWithReports": {
+            "type": "linkMultiple",
+            "view": "advanced:views/target-list/fields/sync-with-reports",
+            "disabled": true,
+            "tooltip": true
+        },
+        "syncWithReportsUnlink": {
+            "type": "bool",
+            "disabled": true,
+            "tooltip": true
+        }
+    },
+    "links": {
+        "syncWithReports": {
+            "type": "hasMany",
+            "entity": "Report",
+            "foreign": "syncTargetLists",
+            "disabled": true
+        }
+    }
+}

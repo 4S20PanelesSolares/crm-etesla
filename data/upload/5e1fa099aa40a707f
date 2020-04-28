@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+ Version="3.3"
+ Serie="TVVSALLCIC"
+ Folio="49883"
+ Fecha="2020-01-15T13:38:44"
+ Sello="KYKCf2ltYITW8kq3uJrWHE277VdzSzreQBepZiqzOxHou5/NtkxsRg+yh+OEjkJ8VgSa7mjT1tEAFwVzSotDR+8Br34NGnKNpMPEKAug3lL9R7XIIuR6BIPIVlBWhwXWbTPvy1dx3ztlfYYLw73OeIw3xrDCQMn+FIWnt1dz9g2xFEoWMgxXIxevFx519oiOkTMFP+TAyTMF/SMYQURlxOk9zROB8iGoyO0mEXXir85j4XjZPgko7bvorYfc+RRMtCNbI6a28WnFoDTjVomOwlVgDXHOn8qw2LG5LQmEG2DKbxgfcGJyZL+9FCnIg87c8mDpKfbWzY5UPzd+c5+DXg=="
+ NoCertificado="00001000000404351266"
+ Certificado="MIIGNjCCBB6gAwIBAgIUMDAwMDEwMDAwMDA0MDQzNTEyNjYwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTYxMTI1MDMwODQ0WhcNMjAxMTI1MDMwODQ0WjCB1jEoMCYGA1UEAxMfREVDQURBIEFVVE9NT1RSSVogUyBERSBSTCBERSBDVjEoMCYGA1UEKRMfREVDQURBIEFVVE9NT1RSSVogUyBERSBSTCBERSBDVjEoMCYGA1UEChMfREVDQURBIEFVVE9NT1RSSVogUyBERSBSTCBERSBDVjElMCMGA1UELRMcREFVMDMwNzI5OTQ2IC8gUVVNTDcwMTAyM0xBMzEeMBwGA1UEBRMVIC8gUVVNTDcwMTAyM01WWlRSVDA1MQ8wDQYDVQQLEwZNQVRSSVowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCDg/3k1wQlamf6Bz7TTnvrjvwhOCIz4+hH752zATjE+1xTfLLzUKWeaz+5YYHfqyrk+eTbT6/CijDag7nQlR4KxntnvasxqfxwP4L9kwSzUpP3n7vd0Fn4WQXGU8CVpohPoxH83Iyq4G6CzuuQfzuJcFvm+xrxgCWRGl5q4ahoKX9uRdwWtbnc5i1Evq8FmHL0RxWVw2kzMuuZV7vKVsJauGIq8WwOw4WKBaBI90V9bHAO+J75H2+Y2vBqJdj15WopBDJw/Dee8rc3hd66iKJR2twsjkVeRI+MNTpGNeh4nJICRFCwY4GzkEbQQoFkn0/WUyP/IytiBzX5F8jbkxaTAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQCAk755GX7Nrnm67u9JKu1SL+fiFtl3xuNSkrFJmcy7u92hVEyLbYRwN6Y/arH+/HQvMcGVL8+9ognW6GtIdGwBIz4zc1Jizdu8kSAeMt/ReRIQ+u8/RfjLcxcbUxFmKrD2ej86ogYcA9W227ufX6uCCTr6aA3AuOucIq1Ldb/J3QsrwgS31ac6U6JO4tAVyOlM+HEWhyBPveMCxnyQZt+2Y64/lIJpYE4OuWINskXlV/IuI+SZ4Q9y44UaDo6Zzyh6LUp0Kuh7IKGDTB47L1cZCiJ6HTR3xvaNmMNel/6Dqsd/aCW0eQKBihgYQOO103aaFJ235aNCblO9sYw11XvdWZdl+eSXqK8s3r0Hi2Xx+BLvmw3camRwe9cnD4WLZfdCUzKfJF/k10Yu1azcYbvFJ5u2dCJk6EfMnbC7FiTwF/MgPUfkAejRAPG4Q2k+uVpDc5JAuywLybqlfJoe0Is/OaGbp5cHJT8jiOk1reFHmHCB1EXotU0iC5HXdlgiDSYEQKRsBxdQTkmF6Ha5mpax6ackByJbpLSI6zY73kbt2cdGrr6QUobYCMaqDl6Dupt6am5Cqck+raYLPV1JtfRaHqio7hpkHEiW3xZfzVRartQvx76KwqOUq119CSNtjltOwVfSNrVjWEbNYELpzZFhmUuvGsCWvjnMLiuLKRmb2A=="
+ TipoDeComprobante="I"
+ FormaPago="03"
+ SubTotal="1205.18"
+ TipoCambio="1"
+ Moneda="MXN"
+ Total="1398.01"
+ MetodoPago="PUE"
+ LugarExpedicion="91960"
+>
+<cfdi:Emisor Rfc="DAU030729946" Nombre="D&#0201;CADA AUTOMOTRIZ S DE RL DE CV." RegimenFiscal="601"/>
+<cfdi:Receptor  Rfc="CET140319211" Nombre="COMERCIALIZADORA ETESLA SA DE CV" UsoCFDI="G03"/>
+<cfdi:Conceptos>
+<cfdi:Concepto Cantidad="0.50" Unidad="Unidad de servicio" Descripcion="SERV HILUX 10K $1,398.00" ValorUnitario="1315.83" Importe="657.92" ClaveProdServ="78181500" ClaveUnidad="E48">
+<cfdi:Impuestos> <cfdi:Traslados>  <cfdi:Traslado Importe="105.267200"    TasaOCuota="0.160000"    TipoFactor="Tasa"    Impuesto="002"    Base="657.92"/> </cfdi:Traslados></cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto Cantidad="1.00" Unidad="Pieza" Descripcion="FILTRO DE ACEITE" ValorUnitario="86.38" Importe="86.38" ClaveProdServ="40161504" ClaveUnidad="H87">
+<cfdi:Impuestos> <cfdi:Traslados>  <cfdi:Traslado Importe="13.820800"    TasaOCuota="0.160000"    TipoFactor="Tasa"    Impuesto="002"    Base="86.38"/> </cfdi:Traslados></cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto Cantidad="5.60" Unidad="Pieza" Descripcion="ACEITE 5W30 GRANEL" ValorUnitario="79.33" Importe="444.25" ClaveProdServ="15121501" ClaveUnidad="H87">
+<cfdi:Impuestos> <cfdi:Traslados>  <cfdi:Traslado Importe="71.080000"    TasaOCuota="0.160000"    TipoFactor="Tasa"    Impuesto="002"    Base="444.25"/> </cfdi:Traslados></cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto Cantidad="1.00" Unidad="Pieza" Descripcion="SELLO TAPON CARTER" ValorUnitario="16.63" Importe="16.63" ClaveProdServ="25173800" ClaveUnidad="H87">
+<cfdi:Impuestos> <cfdi:Traslados>  <cfdi:Traslado Importe="2.660800"    TasaOCuota="0.160000"    TipoFactor="Tasa"    Impuesto="002"    Base="16.63"/> </cfdi:Traslados></cfdi:Impuestos>
+</cfdi:Concepto>
+</cfdi:Conceptos>
+<cfdi:Impuestos TotalImpuestosTrasladados="192.83">
+<cfdi:Traslados>
+<cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="192.83"/>
+</cfdi:Traslados>
+</cfdi:Impuestos>
+<cfdi:Complemento>
+<tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" RfcProvCertif="FLI081010EK2" SelloCFD="KYKCf2ltYITW8kq3uJrWHE277VdzSzreQBepZiqzOxHou5/NtkxsRg+yh+OEjkJ8VgSa7mjT1tEAFwVzSotDR+8Br34NGnKNpMPEKAug3lL9R7XIIuR6BIPIVlBWhwXWbTPvy1dx3ztlfYYLw73OeIw3xrDCQMn+FIWnt1dz9g2xFEoWMgxXIxevFx519oiOkTMFP+TAyTMF/SMYQURlxOk9zROB8iGoyO0mEXXir85j4XjZPgko7bvorYfc+RRMtCNbI6a28WnFoDTjVomOwlVgDXHOn8qw2LG5LQmEG2DKbxgfcGJyZL+9FCnIg87c8mDpKfbWzY5UPzd+c5+DXg==" FechaTimbrado="2020-01-15T13:50:20" UUID="8EA39427-3C37-4DB2-B622-A97182D3F353" NoCertificadoSAT="00001000000403498740" SelloSAT="XAyLeLdk7gimtKrRs74SE5PeJyD7xApm6ROezu/O6e0KtyFE1SZgmn+pLeru8EE6fosU7J283wgZp3RbdjZvNEDfeQIZRthF2vI/ywEADqKvKtdfKP/l8i4dPpRDkZa8cMNR1Ir0TOIxGJvtp9UgLMNc8FlMFeUAl4MhmCnkbBMo8vOs2mzoMSbld2r1ps7CaVA/6FPr+7CE7ASVekfhRsAWKrBZoBANQO/rbeHrFLQdwgpPH91MJpaPzi9xj+U2cbJA3cdSF7Sthw7DrA6qBBOVvchw4T08W62pOTb/E/0JU5gDYoyFffwkY8Cu6dtqfrKht5lopCtQpG5lJaqZ+g=="/>
+</cfdi:Complemento>
+</cfdi:Comprobante>
+ 

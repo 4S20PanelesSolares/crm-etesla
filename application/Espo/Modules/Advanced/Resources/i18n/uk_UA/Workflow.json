@@ -1,0 +1,160 @@
+{
+  "fields": {
+    "Name": "Назва",
+    "entityType": "Цільова сутність",
+    "type": "Тип тригера",
+    "isActive": "Активний",
+    "description": "Опис",
+    "usersToMakeToFollow": "Користувачі для підписування на запис",
+    "whatToFollow": "На що підписувати",
+    "portalOnly": "Лише портал",
+    "portal": "Портал",
+    "targetReport": "Цільовий звіт",
+    "scheduling": "Планування",
+    "assignmentRule": "Правило  призначення",
+    "targetTeam": "Цільова команда",
+    "targetUserPosition": "Позиція цільового користувача",
+    "listReport": "Звіт-список",
+    "linkList": "Зв'язати із цільовою сутністю через зв'язки",
+    "target": "Ціль",
+    "whoFollow": "Кого підписати"
+  },
+  "links": {
+    "portal": "Портал",
+    "targetReport": "Цільовий звіт",
+    "workflowLogRecords": "Журнал"
+  },
+  "tooltips": {
+    "portalOnly": "Якщо вибрано, робочий потік буде запущений тільки на порталі.",
+    "portal": "Конкретний портал, де робочий потік буде запущений. Залиште порожнім, якщо вам це потрібно для роботи на будь-якому порталі.",
+    "scheduling": "Нотації з Crontab. Визначає частоту виконання правил робочого процесу. Часовий пояс UTC.\n\n* / 5 * * * * - кожні 5 хвилин\n\n0 * / 2 * * * - кожні 2 години\n\n30 1 * * * - о 1:30 один раз на день\n\n0 0 1 * * - в перший день місяця"
+  },
+  "labels": {
+    "Create Workflow": "Створити правило",
+    "General": "Загальне",
+    "Conditions": "Умови",
+    "Actions": "Дії",
+    "All": "Всі",
+    "Any": "Будь-яка",
+    "Formula": "Формула",
+    "Email Address": "Поштова скринька",
+    "Email Template": "Шаблон листа",
+    "From": "Від",
+    "To": "До",
+    "immediately": "Негайно",
+    "Reply-To": "Куди відповідати",
+    "later": "Пізніше",
+    "today": "зараз",
+    "plus": "плюс",
+    "minus": "мінус",
+    "days": "днів",
+    "hours": "годин",
+    "months": "місяців",
+    "minutes": "хвилин",
+    "Link": "Зв’язок",
+    "Entity": "Сутність",
+    "Add Field": "Додати поле",
+    "equals": "дорівнює",
+    "wasEqual": "дорівнювало",
+    "notEquals": "не дорівнює",
+    "wasNotEqual": "не дорівнювало",
+    "changed": "змінено",
+    "notChanged": "не змінено",
+    "notEmpty": "не порожнє",
+    "isEmpty": "порожнє",
+    "value": "значення",
+    "field": "поле",
+    "true": "істинне",
+    "false": "хибне",
+    "greaterThan": "більше за",
+    "lessThan": "менше за",
+    "greaterThanOrEquals": "більше за або дорівнює",
+    "lessThanOrEquals": "менше за або дорівнює",
+    "between": "між",
+    "on": "у вказаний час",
+    "before": "до",
+    "after": "після",
+    "beforeToday": "до сьогодні",
+    "afterToday": "від сьогодні",
+    "recipient": "Отримувач",
+    "has": "має",
+    "notHas": "не має",
+    "messageTemplate": "Шаблон повідомлення",
+    "users": "Користувачі",
+    "Target Entity": "Цільова сутність",
+    "Workflow": "Робочий потік",
+    "Workflows Log": "Журнал робочих потоків",
+    "additionalParameters": "Додаткові параметри (формат JSON)",
+    "doNotStore": "Не зберігати надіслані електронні листи",
+    "Related": "Пов'язаний",
+    "Entity Type": "Тип сутності",
+    "Workflow Rule": "Правило робочого потоку",
+    "Add Condition": "Додати умову",
+    "Add Action": "Додати дію",
+    "Created": "Створено",
+    "Field": "Поле",
+    "Process": "Процес"
+  },
+  "emailAddressOptions": {
+    "": "Немає",
+    "currentUser": "Поточний користувач",
+    "specifiedEmailAddress": "Визначений емейл адрес",
+    "assignedUser": "Відповідальний користувач",
+    "targetEntity": "Цільова сутність",
+    "specifiedUsers": "Визначеним користувачам",
+    "specifiedContacts": "Визначеним контактам",
+    "teamUsers": "Користувачі команд",
+    "followers": "Підписані користувачі",
+    "followersExcludingAssignedUser": "Підписані користувачі за виключенням відповідального",
+    "specifiedTeams": "Користувачі визначених команд",
+    "system": "Система"
+  },
+  "options": {
+    "type": {
+      "afterRecordSaved": "Після збереження запису",
+      "afterRecordCreated": "Після створення запису",
+      "scheduled": "Запланований",
+      "sequential": "Послідовний"
+    },
+    "subjectType": {
+      "value": "значення",
+      "field": "поле",
+      "today": "сьогодні/зараз"
+    },
+    "assignmentRule": {
+      "Round-Robin": "Циклічне",
+      "Least-Busy": "Найвільнішим"
+    }
+  },
+  "actionTypes": {
+    "sendEmail": "Відправити листа",
+    "createEntity": "Створити сутність",
+    "createRelatedEntity": "Створити пов’язану сутність",
+    "updateEntity": "Оновити сутність",
+    "updateRelatedEntity": "Оновити пов’язану сутність",
+    "relateWithEntity": "Зв'язати з іншим записом",
+    "unrelateFromEntity": "Від’єднати від іншого запису",
+    "makeFollowed": "Підписати",
+    "createNotification": "Створити нагадування",
+    "triggerWorkflow": "Запустити інше правило робочого потоку",
+    "applyAssignmentRule": "Застосувати правило призначення",
+    "updateCreatedEntity": "Оновити створений запис",
+    "updateProcessEntity": "Оновити запис процесу"
+  },
+  "texts": {
+    "allMustBeMet": "Всі мають виконуватись",
+    "atLeastOneMustBeMet": "Принаймні одна має виконуватись",
+    "formulaInfo": "Умови будь-якої складності на мові espo-formula"
+  },
+  "messages": {
+    "loopNotice": "Будьте обережні з можливим зацикленням через 2 чи більше правил з потоків робіт.",
+    "messageTemplateHelpText": "Допустимі змінні:\n{entity} - цільовий запис,\n{user} - поточний користувач."
+  },
+  "serviceActions": {
+    "sendEventInvitations": "Надіслати запрошення",
+    "addQuoteItemList": "Додати пункти пропозиції"
+  },
+  "serviceActionsHelp": {
+    "addQuoteItemList": "Приклад: <br><code>{<br>&nbsp;&nbsp;\"itemList\": [<br>&nbsp;&nbsp;&nbsp;&nbsp;{\"quantity\": 1, \"procuctId\": \"productId\", \"name\": \"Product Name\", \"listPrice\": 100, \"unitPrice\": 100}<br>&nbsp;&nbsp;]<br>}"
+  }
+}

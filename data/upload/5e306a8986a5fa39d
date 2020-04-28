@@ -1,0 +1,10 @@
+Reporting-MTA: dns; mx35.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;servicio@hyundaiveracruz.com.mx
+Status: 5.0.0
+
+Action: failed
+Final-Recipient: rfc822;asesorservicio1@hyundaiveracruz.com.mx
+Status: 5.0.0
+

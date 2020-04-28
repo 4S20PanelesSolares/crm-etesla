@@ -1,0 +1,20 @@
+{
+    "scopeNames": {
+        "Contact": "Cliente",
+        "Opportunity": "Cliente potencial",
+        "Meeting": "Asesoria",
+        "Aislado": "No potencial",
+        "ACC": "Arch. de Config."
+    },
+    "scopeNamesPlural": {
+        "Contact": "Clientes",
+        "Opportunity": "Clientes potenciales",
+        "Meeting": "Asesorias",
+        "Instalacion": "Instalaciones",
+        "Aislado": "No Potenciales",
+        "ACC": "Arch. de Config."
+    },
+    "dashlets": {
+        "OpportunitiesByStage": "Pipeline"
+    }
+}

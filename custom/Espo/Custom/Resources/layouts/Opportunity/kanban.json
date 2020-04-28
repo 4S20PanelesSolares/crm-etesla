@@ -1,0 +1,29 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "tarifa"
+    },
+    {
+        "name": "amount",
+        "align": "right",
+        "isLarge": true
+    },
+    {
+        "name": "probabilidad"
+    },
+    {
+        "name": "kw"
+    },
+    {
+        "name": "closeDate"
+    },
+    {
+        "name": "assignedUser",
+        "align": "right",
+        "isLarge": true
+    }
+]

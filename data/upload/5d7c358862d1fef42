@@ -1,0 +1,8 @@
+Reporting-MTA: dns; uriel.hosting-mexico.net
+
+Action: failed
+Final-Recipient: rfc822;140971@hotmail.com
+Status: 5.0.0
+Remote-MTA: dns; hotmail-com.olc.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.5.0 Requested action not taken: mailbox unavailable.
+

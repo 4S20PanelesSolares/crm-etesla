@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+PRODID:-//Splash Event Planning System
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20190827T220103Z
+UID:0d89e2309f5694e070807a7401dff508a09b8472@thegreenexpobre
+ akfasttraining20195d6460fe14b0c.splashthat.com
+URL:http://thegreenexpobreakfasttraining20195d6460fe14b0c.sp
+ lashthat.com
+DTSTART:20190904T140000Z
+DTEND:20190904T160000Z
+ORGANIZER;CN="The Green Expo: Breakfast & Training 2019":mai
+ lto:thegreenexpobreakfasttraining20195d6460fe14b0c@splash.ev
+ ents
+SUMMARY:The Green Expo: Breakfast & Training 2019
+DESCRIPTION:For more information - http://thegreenexpobreakf
+ asttraining20195d6460fe14b0c.splashthat.com
+LOCATION:Ciudad de México - Insurgentes Sur 601 Avenida de 
+ los Insurgentes 601 Ciudad de México 03810
+END:VEVENT
+END:VCALENDAR
+

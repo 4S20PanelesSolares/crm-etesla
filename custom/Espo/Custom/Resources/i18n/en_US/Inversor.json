@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "potencia": "Potencia",
+        "precio": "Precio",
+        "marca": "Marca",
+        "vmin": "Vmin",
+        "vmax": "Vmax",
+        "pmin": "Pmin",
+        "pmax": "Pmax",
+        "iSC": "ISC"
+    },
+    "links": [],
+    "labels": {
+        "Create Inversor": "Create Inversor"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": "#efff52",
+    "iconClass": "fas fa-solar-panel"
+}

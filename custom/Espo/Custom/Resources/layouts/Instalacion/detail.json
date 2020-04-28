@@ -1,0 +1,64 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contacts"
+                }
+            ],
+            [
+                {
+                    "name": "opportunities",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "direccion",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "fechaPago"
+                },
+                {
+                    "name": "etapa"
+                }
+            ],
+            [
+                {
+                    "name": "fechaInstalacion",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "tipoDePago"
+                },
+                {
+                    "name": "financiamiento"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "guia"
+                },
+                {
+                    "name": "diasTranscurridos"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Vista"
+    }
+]

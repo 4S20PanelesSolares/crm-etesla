@@ -1,0 +1,22 @@
+{
+    "fields": {
+        "aCCs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "aCCs": {
+            "type": "hasMany",
+            "relationName": "aCCProduct",
+            "foreign": "products",
+            "entity": "ACC",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

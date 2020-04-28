@@ -1,0 +1,19 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "fechaInstalacion",
+        "align": "right",
+        "isLarge": true
+    },
+    {
+        "name": "diasTranscurridos",
+        "align": "left",
+        "isLarge": true
+    },
+    {
+        "name": "assignedUser"
+    }
+]

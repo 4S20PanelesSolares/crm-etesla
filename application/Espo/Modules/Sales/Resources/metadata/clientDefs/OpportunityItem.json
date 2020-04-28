@@ -1,0 +1,23 @@
+{
+    "controller":"controllers/record",
+    "acl": "sales:acl/opportunity-item",
+    "createDisabled": true,
+    "menu":{
+        "list":{
+            "buttons":[
+                {
+                    "label":"Opportunities",
+                    "link":"#Opportunity",
+                    "acl":"read",
+                    "aclScope":"Opportunity"
+                }
+            ]
+        }
+    },
+    "additionalLayouts": {
+        "listItem": {
+            "type": "listSmall",
+            "dataAttributeList": ["name", "align", "width", "view", "customLabel"]
+        }
+    }
+}

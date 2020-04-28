@@ -1,0 +1,32 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "attachments",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

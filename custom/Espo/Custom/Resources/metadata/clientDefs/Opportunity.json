@@ -1,0 +1,34 @@
+{
+    "kanbanViewMode": true,
+    "color": "#9fc77e",
+    "iconClass": "fas fa-dollar-sign",
+    "dynamicLogic": {
+        "fields": {
+            "financiamento": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "tipoPago",
+                            "value": "Financiado"
+                        }
+                    ]
+                }
+            },
+            "recibo": {
+                "required": null
+            },
+            "cotizacion": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "stage",
+                            "value": "Negotiation"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

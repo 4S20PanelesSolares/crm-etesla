@@ -1,0 +1,27 @@
+{
+    "collection": {
+        "sortBy": "dateStart",
+        "asc": false,
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false
+    },
+    "fields": {
+        "parent": {
+            "entityList": [
+                "Account",
+                "Lead",
+                "Contact",
+                "Opportunity",
+                "Case",
+                "Metrica",
+                "Ticket",
+                "Agenda",
+                "Aislado",
+                "Instalacion",
+                "ACC"
+            ]
+        }
+    }
+}

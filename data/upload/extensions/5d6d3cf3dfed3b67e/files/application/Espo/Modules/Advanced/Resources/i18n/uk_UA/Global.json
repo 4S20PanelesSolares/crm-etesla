@@ -1,0 +1,25 @@
+{
+  "scopeNames": {
+    "ReportCategory": "Категорія звітів",
+    "Workflow": "Робочий потік",
+    "Report": "Звіт",
+    "WorkflowLogRecord": "Запис журналу робочого потоку",
+    "BpmnFlowchart": "Блок-схема процесу",
+    "BpmnProcess": "Процес",
+    "ReportFilter": "Фільтр звітів",
+    "ReportPanel": "Панель звітів"
+  },
+  "scopeNamesPlural": {
+    "ReportCategory": "Категорії звітів",
+    "Workflow": "Робочі потіки",
+    "Report": "Звіти",
+    "WorkflowLogRecord": "Журнал робочих потоків",
+    "BpmnFlowchart": "Блок-схеми процесів",
+    "BpmnProcess": "Процеси",
+    "ReportFilter": "Фільтри звітів",
+    "ReportPanel": "Панелі звітів"
+  },
+  "dashlets": {
+    "Report": "Звіт"
+  }
+}

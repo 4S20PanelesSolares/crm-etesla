@@ -1,0 +1,23 @@
+[
+    {
+        "name": "element",
+        "notSortable": true
+    },
+    {
+        "name": "status",
+        "width": 20,
+        "notSortable": true
+    },
+    {
+        "name": "createdAt",
+        "width": 17,
+        "align": "right",
+        "notSortable": true
+    },
+    {
+        "name": "processedAt",
+        "width": 17,
+        "align": "right",
+        "notSortable": true
+    }
+]

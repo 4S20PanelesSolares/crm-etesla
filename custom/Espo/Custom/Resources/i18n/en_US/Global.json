@@ -1,0 +1,20 @@
+{
+    "scopeNames": {
+        "Ticket": "Ticket",
+        "Agenda": "Agenda",
+        "Aislado": "Aislado",
+        "Instalacion": "Instalacion",
+        "ACC": "ACC",
+        "Panel": "Panel",
+        "Inversor": "Inversor"
+    },
+    "scopeNamesPlural": {
+        "Ticket": "Tickets",
+        "Agenda": "Agendas",
+        "Aislado": "Aislados",
+        "Instalacion": "Instalacions",
+        "ACC": "ACCs",
+        "Panel": "Paneles",
+        "Inversor": "Inversores"
+    }
+}

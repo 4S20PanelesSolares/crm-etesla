@@ -1,0 +1,6 @@
+Reporting-MTA: dns; uriel.hosting-mexico.net
+
+Action: failed
+Final-Recipient: rfc822;rogelio.rosadod@uvmenet.efu
+Status: 5.0.0
+

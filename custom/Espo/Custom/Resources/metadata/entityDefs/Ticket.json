@@ -1,0 +1,153 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "estatus": {
+            "type": "enum",
+            "options": [
+                "abierto",
+                "revisado",
+                "en desarrollo",
+                "cerrado"
+            ],
+            "style": {
+                "abierto": "danger",
+                "revisado": "warning",
+                "en desarrollo": "info",
+                "cerrado": "success"
+            },
+            "default": "abierto",
+            "isCustom": true
+        },
+        "captura": {
+            "type": "image",
+            "maxFileSize": null,
+            "isCustom": true
+        },
+        "diasTranscurridos": {
+            "notNull": false,
+            "type": "float",
+            "readOnly": true,
+            "default": null,
+            "min": 0,
+            "max": null,
+            "isCustom": true
+        },
+        "publicado": {
+            "notNull": false,
+            "type": "date",
+            "default": "javascript: return this.dateTime.getToday();",
+            "useNumericFormat": true,
+            "after": null,
+            "before": null,
+            "isCustom": true
+        },
+        "folio": {
+            "type": "number",
+            "len": 36,
+            "notNull": false,
+            "unique": false,
+            "prefix": "tck",
+            "inlineEditDisabled": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "meetings": {
+            "type": "hasMany",
+            "entity": "Meeting",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "calls": {
+            "type": "hasMany",
+            "entity": "Call",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "tasks": {
+            "type": "hasChildren",
+            "entity": "Task",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "captura": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

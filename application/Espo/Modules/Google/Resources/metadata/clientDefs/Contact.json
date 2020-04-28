@@ -1,0 +1,13 @@
+{
+    "massActionList": ["__APPEND__", "pushToGoogle"],
+    "checkAllResultMassActionList": ["__APPEND__", "pushToGoogle"],
+    "massActionDefs": {
+        "pushToGoogle": {
+            "confirmationMessage": "confirmationGoogleContactsPush",
+            "successMessage": "successGoogleContactsPush",
+            "url": "GoogleContacts/action/push",
+            "aclScope": "GoogleContacts",
+            "configCheck": "integrations.Google"
+        }
+    }
+}

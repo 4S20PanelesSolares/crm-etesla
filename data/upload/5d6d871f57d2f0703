@@ -1,0 +1,5 @@
+"Serie","Folio","cfdiUUID","Tipo","Fecha","Hora","RFC","Receptor","Estado","Primer Concepto","Forma de pago","Método de pago","Moneda","Tipo de Cambio","Subtotal","Impuesto Retenido IVA","Impuesto Retenido ISR","Impuesto Trasladado IVA","Impuesto Trasladado IEPS","Impuesto Local Retenido","Impuesto Local Trasladado","Descuento","Total","Fecha Inicial de Pago","Fecha Final de Pago","Subtotal MXN","Impuesto Retenido IVA MXN","Impuesto Retenido ISR MXN","Impuesto Trasladado IVA MXN","Impuesto Trasladado IEPS MXN","Impuesto Local Retenido MXN","Impuesto Local Trasladado MXN","Descuento MXN","Total MXN"
+"A","1237","D626DA9D-9EF2-4589-9030-D7065F14CD1B","Complemento de Pagos","28/02/2019","17:55:10","GUMV861024DG9","VICTOR ABEL GUZMAN MATA","Vigente","Pago","","","Los códigos asignados para las transacciones en que intervenga ninguna moneda","","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","","","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00","0.00"
+El reporte incluye comprobantes del folio 1237 al 1237.
+*En las últimas columnas podrá encontrar los impuestos y totales en moneda nacional (MXN).
+

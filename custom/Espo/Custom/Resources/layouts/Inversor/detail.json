@@ -1,0 +1,48 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "marca"
+                }
+            ],
+            [
+                {
+                    "name": "potencia"
+                },
+                {
+                    "name": "precio"
+                }
+            ],
+            [
+                {
+                    "name": "vmin"
+                },
+                {
+                    "name": "vmax"
+                }
+            ],
+            [
+                {
+                    "name": "pmin"
+                },
+                {
+                    "name": "pmax"
+                }
+            ],
+            [
+                {
+                    "name": "iSC"
+                },
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Vista"
+    }
+]

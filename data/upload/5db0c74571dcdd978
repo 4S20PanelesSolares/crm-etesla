@@ -1,0 +1,8 @@
+Reporting-MTA: dns; esa4.hc3794-51.iphmx.com
+
+Final-Recipient: rfc822;marcolagunesgonzalez@techint.com.mx
+Action: failed
+Status: 5.0.0 (permanent failure)
+Remote-MTA: dns; [201.234.38.26]
+Diagnostic-Code: smtp; 5.1.0 - Unknown address error 550-'5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup' (delivery attempts: 0)
+

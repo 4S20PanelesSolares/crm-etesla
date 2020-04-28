@@ -1,0 +1,56 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "closeDate"
+                }
+            ],
+            [
+                {
+                    "name": "amount",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "stage"
+                },
+                {
+                    "name": "origen"
+                }
+            ],
+            [
+                {
+                    "name": "kw"
+                },
+                {
+                    "name": "probabilidad"
+                }
+            ],
+            [
+                {
+                    "name": "tarifa",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "contacts",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

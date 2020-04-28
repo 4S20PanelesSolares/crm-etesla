@@ -1,0 +1,30 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "stage",
+        "width": 20
+    },
+    {
+        "name": "closeDate"
+    },
+    {
+        "name": "kw"
+    },
+    {
+        "name": "probabilidad"
+    },
+    {
+        "name": "amount",
+        "width": 20,
+        "align": "right"
+    },
+    {
+        "name": "modifiedAt"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

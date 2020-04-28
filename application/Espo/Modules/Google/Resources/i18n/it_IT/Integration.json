@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "googleCalendar": "Calendario",
+    "googleContacts": "Contatti",
+    "googleTasks": "Compiti"
+  },
+  "help": {
+    "Google": "<p> <b> ottenere le credenziali OAuth 2,0 dalla console di Google Developers. </b> </p> <p> visita < a href = \"https://console.developers.google.com/project\" target = \"_ blank\" > Google Developers Console </a> per ottenere le credenziali OAuth 2,0 come un ID client e un client segreto che sono noti sia per l'applicazione Google e EspoCRM. </p> <p> questa integrazione richiede l'estensione <b> curl </b>. I contatti di Google hanno bisogno anche di <b>libxml </b> e <b>XML</b>.</p>"
+  }
+}

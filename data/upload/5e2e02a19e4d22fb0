@@ -1,0 +1,66 @@
+Return-path: <felipe.toledano@etesla.mx>
+Received: from vm04.digitalserver.org ([195.154.83.198])
+	by mx35.antispamcloud.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <felipe.toledano@etesla.mx>)
+	id 1iv2KH-000812-4Z; Fri, 24 Jan 2020 18:01:08 +0100
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=etesla.mx;
+	 s=default; h=Content-Type:In-Reply-To:MIME-Version:Date:Message-ID:From:To:
+	References:Subject:Sender:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=Nx7LT5p6hzpz4HfqHSFBFfx69ICHKPCuJLElQAHSL8Y=; b=i/qLDSEVkEktVHaQvSYUBN487z
+	YAkSDN7hNV4SjgONxzRWagNad8rNQBzC3rAQoF/7p4JVzAgWl55NYMsfxU6aXI2GVXKm5389SqWYF
+	Z8+sdzEhj6XQJRT1sbzckkbAyQwk9+/O75UZ3/Rm5rsbtkoJQ1mqMZ3b/oaEQqxrLt/tQTo3Lhbvt
+	TFFHT4WhZOdmU2V9OxTZMF83WK+nYGJ16FnSv/66iUwC9Ng+W/8di3XFFjdwz8pMzrXnS7YUHM05P
+	twV94tb/+fQbXJLKMuJf0PVpgKcFUwzGINLceHE92NZVejAJq3uu0zf/sIDCfj5vv4Xca9MbsfDA+
+	3IUU/Q5A==;
+Received: from [201.123.127.131] (port=50407 helo=[192.168.1.78])
+	by vm04.digitalserver.org with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <felipe.toledano@etesla.mx>)
+	id 1iv2JP-0003i2-3l; Fri, 24 Jan 2020 11:00:04 -0600
+Subject: =?UTF-8?Q?Fwd=3a_Dep=c3=b3sito_servicio_hyundai?=
+References: <6E41F66A-B902-4081-8CD7-A1413D65EF27@etesla.mx>
+To: asesorservicio1@hyundaiveracruz.com.mx, servicio@hyundaiveracruz.com.mx
+From: =?UTF-8?Q?Felipe_Neri_Toledano_Fern=c3=a1ndez?=
+ <felipe.toledano@etesla.mx>
+X-Forwarded-Message-Id: <6E41F66A-B902-4081-8CD7-A1413D65EF27@etesla.mx>
+Message-ID: <28e531ee-470a-9399-f80f-af448be2ed26@etesla.mx>
+Date: Fri, 24 Jan 2020 10:59:59 -0600
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101
+ Thunderbird/68.4.1
+MIME-Version: 1.0
+In-Reply-To: <6E41F66A-B902-4081-8CD7-A1413D65EF27@etesla.mx>
+Content-Type: multipart/mixed;
+ boundary="------------7F2784C3CCDB7E69FFAAE581"
+Content-Language: en-US
+X-Get-Message-Sender-Via: vm04.digitalserver.org: authenticated_id: felipe.toledano@etesla.mx
+X-Authenticated-Sender: vm04.digitalserver.org: felipe.toledano@etesla.mx
+X-Originating-IP: 195.154.83.198
+X-Spampanel-Domain: vm04.digitalserver.org
+X-Spampanel-Username: 195.154.83.198
+Authentication-Results: antispamcloud.com; auth=pass smtp.auth=195.154.83.198@vm04.digitalserver.org
+X-Spampanel-Outgoing-Class: ham
+X-Spampanel-Outgoing-Evidence: Combined (0.03)
+X-Recommended-Action: accept
+X-Filter-ID: Mvzo4OR0dZXEDF/gcnlw0Xm17NJf4el5vffImWwWrhCpSDasLI4SayDByyq9LIhV2QGk+5RFEzoL
+ Y93pFaA8oETNWdUk1Ol2OGx3IfrIJKyP9eGNFz9TW9u+Jt8z2T3KpMHi4RZBpteWcMEADloVqjfX
+ xVmUAIV2smVEvh0a6bcKjo4qqeO4SyFvVrNedWruea2MNLx7dvoYJ9RlwjZlaoaznveflpf5lMJl
+ /ZFZo9NG3O75xI5mrmYxE3eypFh53nL9G42KBSkQpFMIzlFh3eWhbk7ycqL5oSDMK9hwZw00i6ej
+ zqVG6mvLwwDuT2NfJxTD+B63Vi894QHs0DUJxO3om1NOCXE1kCr91rpFr6Q/9WJbKrA0dZ90ZvHI
+ zZbKlcwC8edOyTFsJvTBZdmGdz4DAxeL45KpBW8l4C1B5P1Dkx5bIdgVzDm0//SMTiSX7XtPYKTt
+ qZvlV3dd3rsJ7UKEcxAcIwRZNf0cSHBI/j8xKX6Z6/Qz1w7TE/bz3YPRYOKgHfB1hDOIHb1OGA75
+ 0OZE7YJwhBWCb1PmFojBOyjXs2KsRjKrCowEavDwQuKotTi65cSzlgdNUmHdZkDXHupPyApn+Jsi
+ rWTdtMW7fMCZSjmmVb1jzWCjpHhh1WjZqXWvTtyZt5+E2rHRTxiOPQKf33qQtTYrDPixEr4D2aet
+ I4g+l6rCWbY0MZcgnbHsok3wn2yHxuzhVDXWNMmWDgbuvrSukV7ulSeS7dCQNsJ/iOF/RjOUV15q
+ 8nphpzlxpZOvt6XDOxtpzhnVy6w4HFzwW7jh4+cFofq2w7HoR05iHE9X9GlwwRvN2KIObvd055RG
+ 8/vjrz5/4Qa1aRJkvTr/NWR6RklZtoeTmrTI4DU0AigdZPSZarw4HOxeQhl0ftsQ3FjXCSXgt4fn
+ Y1iIOPE9CL4iIojlFuqSk+CQOdxmMRr+w2X69ygMahiTQMBde9s2XJSoY/DzETQUKY8U0foPFZIS
+ hBSdpVJW5HbjQTAsTTu+ng0AMWJcgq65vSs6KIaTovxunWhe/+XoDsf2vt40eTXlWiUAYdLmsJdA
+ oPJ64Ekug+xaM1kuiRykRLanRD82OuJV79na9rJ8uGuEo8tPwlkyqdtS5ri3cSRv1gGw54g2RdMp
+ FyN8vv8zzSA+VLAu4o+cLgwig13t2llD8w==
+X-Report-Abuse-To: spam@quarantine10.antispamcloud.com
+
+

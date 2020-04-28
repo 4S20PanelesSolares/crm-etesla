@@ -1,0 +1,9 @@
+Reporting-MTA: dns; uriel.hosting-mexico.net
+
+Action: failed
+Final-Recipient: rfc822;aperales@labodegasolar.com
+Status: 5.0.0
+Remote-MTA: dns; mx1.privateemail.com
+Diagnostic-Code: smtp; 550-5.1.1 <aperales@labodegasolar.com>: Recipient address rejected:
+ 550 User unknown in virtual mailbox table
+

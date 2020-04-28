@@ -1,0 +1,39 @@
+{
+  "labels": {
+    "Create BpmnProcess": "Запустити процес",
+    "Stop Process": "Зупинити процес",
+    "User Tasks": "Завдання користувача",
+    "Flowcharts": "Блок-схеми"
+  },
+  "fields": {
+    "status": "Статус",
+    "targetType": "Тип цільової сутності",
+    "target": "Ціль",
+    "createdEntitiesData": "Дані створених сутностей",
+    "flowchartData": "Дані блок-схеми",
+    "flowchart": "Блок-схема",
+    "flowchartVisualization": "Блок-схема (візуалізація)",
+    "flowchartElementsDataHash": "Елементи блок-схеми",
+    "variables": "Змінні",
+    "endedAt": "Закінчено",
+    "startElementId": "Початковий елемент"
+  },
+  "links": {
+    "flowchart": "Блок-схема",
+    "target": "Ціль",
+    "flowNodes": "Журнал потоку"
+  },
+  "options": {
+    "status": {
+      "Created": "Створено",
+      "Started": "Почалося",
+      "Ended": "Закінчено",
+      "Paused": "Призупинено",
+      "Stopped": "Зупинено"
+    }
+  },
+  "presetFilters": {
+    "actual": "Актуальний",
+    "ended": "Закінчено"
+  }
+}

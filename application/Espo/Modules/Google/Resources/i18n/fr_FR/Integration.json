@@ -1,0 +1,5 @@
+{
+    "help": {
+        "Google": "<p><b>Il faut obtenir des identifiants OAuth 2.0 de Google Developers.</b></p><p>Visitez <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google Developers</a> pour obtenir les identifiants OAuth 2.0 comme un numéro de client et le client secret qui sont connus à la fois de l'application Google et du CRM.</p><p>This integration requires <b>curl</b> extension. Google Contacts also needs <b>libxml</b> and <b>xml</b>.</p>"
+    }
+}

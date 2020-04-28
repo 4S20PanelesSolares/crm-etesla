@@ -1,0 +1,12 @@
+Reporting-MTA: dns; f5-cpt.filter.rsaweb.co.za
+X-Postfix-Queue-ID: 0C46538B700
+X-Postfix-Sender: rfc822; fernando.cosme@etesla.mx
+Arrival-Date: Thu, 29 Aug 2019 00:41:04 +0200 (SAST)
+
+Final-Recipient: rfc822; felipe.toledano@etesla.com
+Original-Recipient: rfc822;felipe.toledano@etesla.com
+Action: failed
+Status: 5.3.4
+Diagnostic-Code: X-Postfix; message size 20993897 exceeds size limit 20971520
+    of server 41.74.182.205[41.74.182.205]
+

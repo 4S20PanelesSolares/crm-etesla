@@ -1,0 +1,26 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "captura",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

@@ -1,0 +1,16 @@
+[
+    "assignedUser",
+    "teams",
+    "createdAt",
+    "createdBy",
+    "modifiedAt",
+    "amountConverted",
+    "amountWeightedConverted",
+    "campaign",
+    "closeDate",
+    "contacts",
+    "leadSource",
+    "probability",
+    "stage",
+    "description"
+]

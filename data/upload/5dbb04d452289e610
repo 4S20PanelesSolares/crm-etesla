@@ -1,0 +1,6 @@
+Reporting-MTA: dns; uriel.hosting-mexico.net
+
+Action: failed
+Final-Recipient: rfc822;moises.perez@uvmnet.edu.mx
+Status: 5.0.0
+

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "alias",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "tarifa"
+    },
+    {
+        "name": "phoneNumber"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "modifiedAt"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

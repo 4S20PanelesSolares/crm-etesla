@@ -1,0 +1,8 @@
+{
+    "products":{
+        "googleCalendar": "Google Calendar",
+        "googleTask": "Google Task",
+        "googleContacts": "Contacts",
+        "gmail": "Gmail"
+    }
+}

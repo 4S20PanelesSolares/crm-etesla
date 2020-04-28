@@ -1,0 +1,45 @@
+{
+  "labels": {
+    "Create BpmnFlowchart": "Создать блок-схему",
+    "Hand tool": "Инструмент рука",
+    "Create Event tool": "Инструмент создать событие",
+    "Create Gateway tool": "Инструмент создать событие",
+    "Create Activity tool": "Инструмент создать действие",
+    "Connect tool": "Инструмент соединения",
+    "Erase tool": "Инструмент стирания",
+    "Full Screen": "Полный экран",
+    "Processes": "Процессы",
+    "data": "Данные"
+  },
+  "fields": {
+    "isActive": "Активен",
+    "targetType": "Тип целевого объекта"
+  },
+  "links": {
+    "processes": "Процессы"
+  },
+  "elements": {
+    "eventStartConditional": "Условное стартовое событие",
+    "eventStartTimer": "Стартовое событие-таймер",
+    "eventStart": "Стартовое событие",
+    "eventIntermediateTimerCatch": "Промежуточное событие-таймер",
+    "eventIntermediateConditionalCatch": "Промежуточное условное событие",
+    "eventEnd": "Конечное событие",
+    "eventEndTerminate": "Завершающие конечное событие",
+    "gatewayExclusive": "Эксклюзивный шлюз",
+    "gatewayInclusive": "Включающий шлюз",
+    "gatewayParallel": "Параллельный шлюз",
+    "gatewayEventBased": "Шлюз на основе события",
+    "taskSendMessage": "Задача «Отправить сообщение»",
+    "taskScript": "Задача-скрипт",
+    "taskBusinessRule": "Задача бизнес-правила",
+    "taskUser": "Пользовательская задача",
+    "task": "Задача",
+    "flow": "Поток операций"
+  },
+  "presetFilters": {
+    "isManuallyStartable": "Запускаемый вручную",
+    "activeHasNoneStartEvent": "Активен без стартового события",
+    "active": "Активен"
+  }
+}

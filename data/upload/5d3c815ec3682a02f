@@ -1,0 +1,7 @@
+Reporting-MTA: dns; mx63.antispamcloud.com
+
+Action: failed
+Final-Recipient: rfc822;juanjo.resendiz@kosmoz.com.mx
+Status: 5.0.0
+Diagnostic-Code: smtp; Unrouteable address
+

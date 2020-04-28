@@ -1,0 +1,23 @@
+[
+    {
+        "name": "name",
+        "width": 35,
+        "link": true
+    },
+    {
+        "name": "alias"
+    },
+    {
+        "name": "phoneNumber"
+    },
+    {
+        "name": "emailAddress",
+        "notSortable": true
+    },
+    {
+        "name": "modifiedAt"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

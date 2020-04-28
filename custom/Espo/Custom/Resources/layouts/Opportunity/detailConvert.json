@@ -1,0 +1,34 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "stage"
+                },
+                {
+                    "name": "amount"
+                }
+            ],
+            [
+                {
+                    "name": "probability"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "closeDate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Vista"
+    }
+]

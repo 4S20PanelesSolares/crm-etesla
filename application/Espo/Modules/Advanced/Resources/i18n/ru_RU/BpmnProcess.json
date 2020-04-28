@@ -1,0 +1,39 @@
+{
+  "labels": {
+    "Create BpmnProcess": "Запустить процесс",
+    "Stop Process": "Остановить процесс",
+    "User Tasks": "Задачи пользователя",
+    "Flowcharts": "Блок-схемы"
+  },
+  "fields": {
+    "status": "Статус",
+    "targetType": "Тип целевого объекта",
+    "target": "Цель",
+    "createdEntitiesData": "Данные созданных объектов",
+    "flowchartData": "Данные блок-схемы",
+    "flowchart": "Блок-схема",
+    "flowchartVisualization": "Блок-схема (визуализация)",
+    "flowchartElementsDataHash": "Элементы блок-схемы",
+    "variables": "Переменные",
+    "endedAt": "Завершено",
+    "startElementId": "Начальный элемент"
+  },
+  "links": {
+    "flowchart": "Блок-схема",
+    "target": "Цель",
+    "flowNodes": "Журнал потока"
+  },
+  "options": {
+    "status": {
+      "Created": "Создан",
+      "Started": "Начался",
+      "Ended": "Закончился",
+      "Paused": "Приостановлен",
+      "Stopped": "Остановлен"
+    }
+  },
+  "presetFilters": {
+    "actual": "Актуальный",
+    "ended": "Закончился"
+  }
+}

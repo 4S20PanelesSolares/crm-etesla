@@ -1,0 +1,11 @@
+Reporting-MTA: dns;SF-EXCH2.finanzas.df.gob.mx
+Received-From-MTA: dns;finanzas.cdmx.gob.mx
+Arrival-Date: Thu, 22 Aug 2019 18:41:14 +0000
+
+Final-Recipient: rfc822;proveedores_cdmx@finanzas.cdmx.gob.mx
+Action: failed
+Status: 5.2.2
+Diagnostic-Code: smtp;554 5.2.2 mailbox full; STOREDRV.Deliver.Exception:QuotaExceededException.MapiExceptionShutoffQuotaExceeded; Failed to process message due to a permanent exception with message Cannot get ID from name. 16.55847:C80C0000, 17.43559:000000008C000000000000000100000000000000, 20.52176:010F37860800000000000000, 20.50032:010F37867817000000000000, 0.35180:010F3786, 255.23226:5F010000, 255.27962:56000000, 255.17082:B9040000, 0.16993:DD040000, 4.21921:B9040000, 255.31418:DD040000, 0.22753:FA000000, 255.21817:B9040000, 0.37224:00000000, 4.40808:DD040000, 0.24529:622D3462, 4.18385:DD040000, 0.36864:30383332, 4.37120:DD040000 [Stage: CreateMessage]
+Remote-MTA: dns;SF-EXCH1.finanzas.df.gob.mx
+
+

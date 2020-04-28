@@ -1,0 +1,13 @@
+{
+    "labels": {
+        "Create Panel": "Crear Panel"
+    },
+    "fields": {
+        "marca": "Marca",
+        "potencia": "Potencia",
+        "iSC": "ISC",
+        "vOC": "VOC",
+        "precio": "Precio",
+        "vMP": "VMP"
+    }
+}

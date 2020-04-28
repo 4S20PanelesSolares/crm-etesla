@@ -1,0 +1,67 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "isActive"
+                }
+            ],
+            [
+                {
+                    "name": "entityType"
+                },
+                {
+                    "name": "report"
+                }
+            ],
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "reportType"
+                }
+            ],
+            [
+                {
+                    "name": "displayTotal"
+                },
+                {
+                    "name": "displayOnlyTotal"
+                }
+            ],
+            [
+                {
+                    "name": "useSiMultiplier"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "teams"
+                },
+                {
+                    "name": "column"
+                }
+            ],
+            [
+                {
+                    "name": "dynamicLogicVisible"
+                },
+                {
+                    "name": "order"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

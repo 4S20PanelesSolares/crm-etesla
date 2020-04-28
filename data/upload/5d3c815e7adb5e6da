@@ -1,0 +1,161 @@
+Return-path: <fernando.cosme@etesla.mx>
+Received: from uriel.hosting-mexico.net ([69.162.67.210])
+	by mx148.antispamcloud.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <fernando.cosme@etesla.mx>)
+	id 1hn4a7-000N99-Jb; Mon, 15 Jul 2019 19:17:07 +0200
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=etesla.mx;
+	 s=default; h=Content-Type:MIME-Version:Date:Message-ID:Cc:Subject:From:To:
+	Sender:Reply-To:Content-Transfer-Encoding:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=2kpLoS9LTEUIw6KRRa43gbEExfIIp9sgZTCUHF25ZaA=; b=N2ISnvVe8h1DaxEXzN4/P3l7tU
+	m6TEPKrDkcCvzXnFvDqLBsv/EQlqzSjzxpOBWIiOX4hTvtUpBZri5/LkU7dUqqMbFYiTGwjWk7RIc
+	wr4husepjSv9pqHNyAvIHYUOPyce2y0+8DC59zl59bgkQMxSbxK65F/U+zgboy443tPml0uB9sjhK
+	Z2eXTQX1NbD9TqjSMAUXyatW3TuniJ9mFPAUNPAPRJfQEW1LVhgboBXamrTeM/J95qgf9KsEqA12P
+	kQynCjjlJMmRHODmnBSWo+qQVAsTtpYdgeg8bK49qlx5xZvaA7i/F6qb58aluWnb3wTfwDfWAzW5W
+	KXqHa1qQ==;
+Received: from [189.216.198.158] (port=51047 helo=[192.168.0.18])
+	by uriel.hosting-mexico.net with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <fernando.cosme@etesla.mx>)
+	id 1hn4Wt-00FiLC-Ds; Mon, 15 Jul 2019 12:12:47 -0500
+To: juanjo.recendiz@kosmos.com.mx
+From: Fer cosme <fernando.cosme@etesla.mx>
+Subject: COTIZACION ESTACION METEOROLOGICA SP
+Cc: =?UTF-8?Q?Fernando_Cosme_Cort=c3=a9s?= <fercosme@outlook.com>
+Message-ID: <1748024d-8b34-5e8f-1b2a-bfebf8e68397@etesla.mx>
+Date: Mon, 15 Jul 2019 12:12:44 -0500
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101
+ Thunderbird/60.8.0
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------------22D55036E5818915B2F42D76"
+Content-Language: es-ES
+X-Originating-IP: 69.162.67.210
+X-Spampanel-Domain: uriel2.hosting-mexico.net
+X-Spampanel-Username: 69.162.67.210
+Authentication-Results: antispamcloud.com; auth=pass smtp.auth=69.162.67.210@uriel2.hosting-mexico.net
+X-Spampanel-Outgoing-Class: unsure
+X-Spampanel-Outgoing-Evidence: Combined (0.15)
+X-Recommended-Action: accept
+X-Filter-ID: Mvzo4OR0dZXEDF/gcnlw0U6y6flTXvu8AHhQTLy0w52pSDasLI4SayDByyq9LIhVUZbR67CQ7/vm
+ /hHDJU4RXkTNWdUk1Ol2OGx3IfrIJKyP9eGNFz9TW9u+Jt8z2T3KVNUoW8mjoBlgTgnLX7vXB4Bd
+ KOTC9qGBrV0p7taHg9YLWuYq4N03SVywUAylThWT9tT9PF8mvRApW/0pgTjDcNn0h7nRlj4K4g0F
+ S4/55SsEybI1sOftHmSKUCHCvcq0TzZjnkrrL1mACMw/UF0G0cW+ZzwdsZ2ZIrE2Nbell/u00WDn
+ PglvNy3B141HisbtE5LN1n8YXzQY0mQUNzTGA7lXPwXVNHzXUgZI1sJ873tH3v3Q7PQeNoNQjwiv
+ 3IhNPpDsdaHHqGG7YXgprtn5XLToE7g5LY8o1a6sSJrLl3xdARnv/HGR54G9CHRYhyVqeFCgjm3k
+ HTZZa/hYJaCZ8XDK/6nwwUQp/QcoBMuY1t4VHRapBQPmCpFJcnS4eXEmh7e94ySlOOMz4vj86XPR
+ uQSXQeSqz7YKW77Ef5dUp7B8+2dfvsWQ710UqaDfINj1x39f+wZ6J9cM8qBeZ/OOOtvpo2UgV9PP
+ 0GtOSQCD3Wp6EipRzMVZ5LqwTx7Vvn9SWQRihqWRcCaa7yMGNcHiKhwcxOK1ZLyRZuj6zd/uOolk
+ 5lCVkxOZUl0aMJ3IsN8Ck7mv1tUxHGY7jm3VqJ4UK5A8y7HoHiH+Y0eTzU5RekUDEXCM0XZn/viC
+ LfFZ4K080bRbmskEhysblbPkZqqEaqntKr6+crm+rffkaQ6ZgOgv3wL/u/37o0B5H85LoODHY1Ph
+ +zF6Xumr6UEyR4xZzxhJ9mxCYKx8Ry2Cil+ihZFxiqFcwZVY7qm3NWup9QkFHHASJNUmoOHSoqgq
+ xfHmWa3ne8ETexGodGJM3rJsIabarr3GktYuKHqA0+jdxLVFrEk5FQsVPyeMtdph/gK+gfMrcbKN
+ yYx9kJUnkFQ7QIKxrO6pbawpOtnS0YQ89CTjsJjC0FJDE7nbbj/SAKbW/fLd14/y82ebPziYNS9m
+ rGehzttXT6cT4TBXzjfG6WzXEnTgaHSpfXQtjYDWIbygaWNT4fsxel7pq+lBMkeMWc9was+00Ylh
+ fdVP7JnXaybx
+X-Report-Abuse-To: spam@quarantine10.antispamcloud.com
+
+This is a multi-part message in MIME format.
+--------------22D55036E5818915B2F42D76
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Buen día Ing. Juan
+
+
+         Por favor le pido me apoye con una cotizacion de estacion 
+meteorologica con los las siguientes caracteristicas, saludos.
+
+
+  * Termómetro <https://es.wikipedia.org/wiki/Term%C3%B3metro>
+  * Barómetro <https://es.wikipedia.org/wiki/Bar%C3%B3metro>
+  * Pluviómetro <https://es.wikipedia.org/wiki/Pluvi%C3%B3metro>
+  * Piranómetro, este debe cumplir con la ISO 9060, Clase 2.
+    <https://es.wikipedia.org/wiki/Piran%C3%B3metro>
+  * Anemómetro <https://es.wikipedia.org/wiki/Anem%C3%B3metro>
+  * Veleta <https://es.wikipedia.org/wiki/Veleta>
+
+
+Ing. Fernando Cosme Cortés
+
+Responsable de Ingenieria CDMX
+
+Contacto: 554 055 6660,fernando.cosme@etesla.mx 
+<mailto:fernando.cosme@etesla.mx>
+
+
+--------------22D55036E5818915B2F42D76
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p>Buen día Ing. Juan</p>
+    <p><br>
+    </p>
+    <p>        Por favor le pido me apoye con una cotizacion de estacion
+      meteorologica con los las siguientes caracteristicas, saludos.</p>
+    <p><br>
+    </p>
+    <ul style="margin: 0.3em 0px 0px 1.6em; padding: 0px;
+      list-style-image: url(&quot;data:image/svg+xml,%3Csvg
+      xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22
+      height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229%22 r=%222.5%22
+      fill=%22%23222%22/%3E %3C/svg%3E&quot;); color: rgb(34, 34, 34);
+      font-family: sans-serif; font-size: 14px; font-style: normal;
+      font-variant-ligatures: normal; font-variant-caps: normal;
+      font-weight: 400; letter-spacing: normal; orphans: 2; text-align:
+      start; text-indent: 0px; text-transform: none; white-space:
+      normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width:
+      0px; background-color: rgb(255, 255, 255); text-decoration-style:
+      initial; text-decoration-color: initial;">
+      <li style="margin-bottom: 0.1em;"><a
+          href="https://es.wikipedia.org/wiki/Term%C3%B3metro"
+          title="Termómetro" style="text-decoration: none; color:
+          rgb(11, 0, 128); background: none;">Termómetro</a></li>
+      <li style="margin-bottom: 0.1em;"><a
+          href="https://es.wikipedia.org/wiki/Bar%C3%B3metro"
+          title="Barómetro" style="text-decoration: none; color: rgb(11,
+          0, 128); background: none;">Barómetro</a><span></span><span></span><span></span><br>
+      </li>
+      <li style="margin-bottom: 0.1em;"><a
+          href="https://es.wikipedia.org/wiki/Pluvi%C3%B3metro"
+          title="Pluviómetro" style="text-decoration: none; color:
+          rgb(11, 0, 128); background: none;">Pluviómetro</a></li>
+      <li style="margin-bottom: 0.1em;"><a
+          href="https://es.wikipedia.org/wiki/Piran%C3%B3metro"
+          title="Piranómetro" style="text-decoration: none; color:
+          rgb(11, 0, 128); background: none;">Piranómetro, este debe
+          cumplir con la ISO 9060, Clase 2.<br>
+        </a></li>
+      <li style="margin-bottom: 0.1em;"><a
+          href="https://es.wikipedia.org/wiki/Anem%C3%B3metro"
+          title="Anemómetro" style="text-decoration: none; color:
+          rgb(11, 0, 128); background: none;">Anemómetro</a><span></span><span></span></li>
+      <li style="margin-bottom: 0.1em;"><a
+          href="https://es.wikipedia.org/wiki/Veleta" title="Veleta"
+          style="text-decoration: none; color: rgb(11, 0, 128);
+          background: none;">Veleta</a></li>
+    </ul>
+    <p class="gmail-m_5494748943215525875yiv8920078101MsoNormal"><br>
+    </p>
+    <p class="gmail-m_5494748943215525875yiv8920078101MsoNormal">Ing.
+      Fernando Cosme Cortés</p>
+    <p class="gmail-m_5494748943215525875yiv8920078101MsoNormal">Responsable
+      de Ingenieria CDMX</p>
+    <p> Contacto: 554 055 6660,<span
+class="gmail-m_5494748943215525875yiv8920078101gmail-m_7777206121762565164apple-converted-space">
+      </span><a rel="nofollow" href="mailto:fernando.cosme@etesla.mx"
+        target="_blank">fernando.cosme@etesla.mx</a></p>
+  </body>
+</html>
+
+--------------22D55036E5818915B2F42D76--
+

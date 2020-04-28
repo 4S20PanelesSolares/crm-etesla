@@ -1,0 +1,180 @@
+{
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false,
+        "textFilterFields": [
+            "name",
+            "emailAddress"
+        ],
+        "fullTextSearch": false
+    },
+    "fields": {
+        "case": {
+            "type": "link"
+        },
+        "alias": {
+            "type": "varchar",
+            "default": null,
+            "maxLength": null,
+            "options": [],
+            "isCustom": true
+        },
+        "giroProf": {
+            "type": "varchar",
+            "default": null,
+            "maxLength": null,
+            "options": [],
+            "isCustom": true
+        },
+        "salutationName": {
+            "options": [
+                "",
+                "Mr.",
+                "Ms.",
+                "Mrs.",
+                "Dr.",
+                "Arq.",
+                "Lic."
+            ],
+            "style": {
+                "": null,
+                "Mr.": null,
+                "Ms.": null,
+                "Mrs.": null,
+                "Dr.": null,
+                "Arq.": null,
+                "Lic.": null
+            },
+            "default": ""
+        },
+        "origen": {
+            "type": "enum",
+            "options": [
+                "Redes",
+                "Cambaceo",
+                "Recomendado",
+                "Arquitecto",
+                "Auto",
+                "Volanteo"
+            ],
+            "style": {
+                "Redes": null,
+                "Cambaceo": null,
+                "Recomendado": null,
+                "Arquitecto": null,
+                "Auto": null,
+                "Volanteo": null
+            },
+            "default": "Redes",
+            "isCustom": true
+        },
+        "tarifa": {
+            "type": "enum",
+            "options": [
+                "Domestico",
+                "Industrial",
+                "Comercial"
+            ],
+            "style": {
+                "Domestico": "primary",
+                "Industrial": "danger",
+                "Comercial": "info"
+            },
+            "default": "Domestico",
+            "isCustom": true
+        },
+        "opportunities1": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "opportunity": {
+            "type": "link"
+        },
+        "instalacions": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        },
+        "aislados": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        },
+        "aislado": {
+            "type": "link"
+        },
+        "aCCs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "case": {
+            "type": "belongsTo",
+            "foreign": "contacts1",
+            "entity": "Case",
+            "audited": false,
+            "isCustom": true
+        },
+        "opportunities1": {
+            "type": "hasMany",
+            "relationName": "oppContact",
+            "foreign": "contacts1",
+            "entity": "Opportunity",
+            "audited": true,
+            "isCustom": true
+        },
+        "opportunity": {
+            "type": "belongsTo",
+            "foreign": "contacts12",
+            "entity": "Opportunity",
+            "audited": true,
+            "isCustom": true
+        },
+        "instalacions": {
+            "type": "hasMany",
+            "relationName": "instalacionContact",
+            "foreign": "contacts",
+            "entity": "Instalacion",
+            "audited": false,
+            "isCustom": true
+        },
+        "aislados": {
+            "type": "hasMany",
+            "relationName": "aisladoContact",
+            "foreign": "contacts",
+            "entity": "Aislado",
+            "audited": false,
+            "isCustom": true
+        },
+        "aislado": {
+            "type": "belongsTo",
+            "foreign": "contacts1",
+            "entity": "Aislado",
+            "audited": false,
+            "isCustom": true
+        },
+        "aCCs": {
+            "type": "hasMany",
+            "relationName": "aCCContact",
+            "foreign": "contacts",
+            "entity": "ACC",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "fields": {
+        "case": "Case",
+        "alias": "Alias",
+        "giroProf": "Giro o Profesión",
+        "origen": "Origen",
+        "tarifa": "Tarifa",
+        "opportunities1": "Opportunities1",
+        "opportunity": "Opportunity",
+        "instalacion": "Instalacion",
+        "instalacions": "Instalacions",
+        "aislados": "Aislados",
+        "aislado": "Aislado",
+        "aCCs": "ACCs"
+    },
+    "links": {
+        "case": "Case",
+        "opportunities1": "Opportunities1",
+        "opportunity": "Opportunity",
+        "instalacion": "Instalacion",
+        "instalacions": "Instalacions",
+        "aislados": "Aislados",
+        "aislado": "Aislado",
+        "aCCs": "ACCs"
+    },
+    "options": {
+        "origen": {
+            "Redes": "Redes",
+            "Cambaceo": "Cambaceo",
+            "Recomendado": "Recomendado",
+            "Arquitecto": "Arquitecto",
+            "Auto": "Auto",
+            "Volanteo": "Volanteo"
+        },
+        "tarifa": {
+            "Domestico": "Domestico",
+            "Industrial": "Industrial",
+            "Comercial": "Comercial"
+        }
+    }
+}

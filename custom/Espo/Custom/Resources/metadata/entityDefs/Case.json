@@ -1,0 +1,30 @@
+{
+    "collection": {
+        "orderBy": "number",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "number"
+        ],
+        "fullTextSearch": false
+    },
+    "fields": {
+        "contacts1": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "noLoad": false,
+            "importDisabled": false,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "contacts1": {
+            "type": "hasMany",
+            "foreign": "case",
+            "entity": "Contact",
+            "audited": true,
+            "isCustom": true
+        }
+    }
+}

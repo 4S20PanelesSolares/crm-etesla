@@ -1,0 +1,42 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "folio",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "estatus"
+                }
+            ],
+            [
+                {
+                    "name": "publicado"
+                },
+                {
+                    "name": "diasTranscurridos"
+                }
+            ],
+            [
+                {
+                    "name": "captura",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Vista"
+    }
+]
